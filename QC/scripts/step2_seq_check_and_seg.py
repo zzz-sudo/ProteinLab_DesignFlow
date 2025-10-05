@@ -3,7 +3,7 @@
 """
 step2_seq_check_and_seg.py - 序列质量检查与SEG掩蔽
 作者: Kuroneko
-日期: 2025.10.04
+日期: 2025.9.04
 
 功能说明:
     1. 读取 FASTA 格式序列文件
