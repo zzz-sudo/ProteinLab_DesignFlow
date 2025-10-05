@@ -3,7 +3,7 @@
 """
 step3_blast_remote_and_parse.py - 远程BLAST搜索与结果解析
 作者: Kuroneko
-日期: 2025.10.04
+日期: 2025.9.04
 
 功能说明:
     1. 读取序列文件（原始或SEG掩蔽后）
