@@ -1,7 +1,7 @@
 """
 脚本名: step6_rosetta_scoring.py
 作者: Kuroneko
-日期: 2025.9.30
+日期: 2025.7.30
 
 功能: 使用 Rosetta 能量打分与 relax（如无 Rosetta 环境则提供替代评分）
 
