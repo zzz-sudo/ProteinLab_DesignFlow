@@ -1,7 +1,7 @@
 """
 脚本名: step3b_esm_if_design.py
 作者: Kuroneko
-日期: 2025.9.30
+日期: 2025.6.15
 
 功能: 使用 ESM-IF 对骨架进行逆向折叠序列设计（本地GPU版本）
 
