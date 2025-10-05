@@ -1,7 +1,7 @@
 """
 脚本名: install_md_software.py
 作者: Kuroneko
-日期: 2025.10.3
+日期: 2025.7.30
 
 功能: 分子动力学软件安装指南
 包括: GROMACS, OpenMM, MDAnalysis
