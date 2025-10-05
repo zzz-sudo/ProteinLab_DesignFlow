@@ -3,7 +3,7 @@
 """
 step1_setup_and_download.py - 环境设置与示例数据准备
 作者: Kuroneko
-日期: 2025.10.04
+日期: 2025.9.04
 
 功能说明:
     1. 创建项目所需的目录结构（data/, outputs/, logs/）
