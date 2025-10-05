@@ -1,7 +1,7 @@
 """
 脚本名: step2_rfdiffusion_backbone.py
 作者: Kuroneko
-日期: 2025.10.03
+日期: 2025.6.03
 
 功能: 生成可下载的RFdiffusion Colab代码文件
       输入参数后，生成完整的Colab代码，可直接复制到Google Colab运行
