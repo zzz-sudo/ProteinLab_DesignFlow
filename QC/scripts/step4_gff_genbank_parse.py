@@ -3,7 +3,7 @@
 """
 step4_gff_genbank_parse.py - GFF和GenBank注释文件解析
 作者: Kuroneko
-日期: 2025.10.04
+日期: 2025.9.06
 
 功能说明:
     1. 解析 GFF3 格式基因注释文件
