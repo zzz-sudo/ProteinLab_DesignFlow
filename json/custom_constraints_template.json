@@ -1,0 +1,83 @@
+{
+  "custom_constraint_builder": {
+    "description": "用户自定义约束构建器模板",
+    "author": "Kuroneko",
+    "date": "2025.9.30",
+    "template": {
+      "constraint_id": "user_custom",
+      "name": "用户自定义约束",
+      "description": "根据用户需求自定义的设计约束",
+      "target_length": 50,
+      "fixed_positions": {},
+      "forbidden_residues": [],
+      "preferred_residues": {},
+      "position_preferences": {},
+      "distance_constraints": [],
+      "secondary_structure_requirements": "",
+      "hydrophobicity_requirements": {},
+      "charge_requirements": {},
+      "special_motifs": []
+    },
+    "constraint_options": {
+      "fixed_positions_help": "指定必须使用特定氨基酸的位点，格式: {位点编号: 氨基酸字母}",
+      "forbidden_residues_help": "指定禁止使用的氨基酸，格式: [氨基酸字母列表]",
+      "preferred_residues_help": "指定偏好的氨基酸类型，格式: {类型: [氨基酸列表]}",
+      "available_residue_types": {
+        "hydrophobic": ["A", "I", "L", "M", "F", "W", "Y", "V"],
+        "polar": ["S", "T", "N", "Q"],
+        "charged_positive": ["K", "R", "H"],
+        "charged_negative": ["D", "E"],
+        "aromatic": ["F", "W", "Y", "H"],
+        "small": ["A", "G", "S", "C"],
+        "large": ["F", "W", "Y", "R", "K"],
+        "flexible": ["G", "P"],
+        "rigid": ["P"]
+      },
+      "secondary_structure_codes": {
+        "H": "alpha螺旋",
+        "E": "beta折叠",
+        "C": "无规卷曲",
+        "T": "转角"
+      }
+    },
+    "examples": {
+      "simple_hydrophobic_core": {
+        "description": "简单疏水核心设计",
+        "position_preferences": {
+          "5": ["L", "I", "V"],
+          "10": ["L", "I", "V"], 
+          "15": ["L", "I", "V"]
+        },
+        "forbidden_residues": ["P", "G"]
+      },
+      "metal_binding_site": {
+        "description": "金属结合位点",
+        "fixed_positions": {
+          "12": "H",
+          "16": "H", 
+          "45": "C",
+          "48": "C"
+        },
+        "distance_constraints": [
+          {
+            "atom1": {"residue": 12, "atom": "NE2"},
+            "atom2": {"residue": 45, "atom": "SG"},
+            "distance_range": [2.0, 4.0]
+          }
+        ]
+      },
+      "amphipathic_helix": {
+        "description": "两亲性螺旋",
+        "secondary_structure_requirements": "HHHHHHHHHHHHHHHHHHHH",
+        "position_preferences": {
+          "1": ["K", "R", "E", "D"],
+          "4": ["L", "I", "V"],
+          "5": ["K", "R", "E", "D"],
+          "8": ["L", "I", "V"],
+          "12": ["K", "R", "E", "D"],
+          "15": ["L", "I", "V"]
+        }
+      }
+    }
+  }
+}

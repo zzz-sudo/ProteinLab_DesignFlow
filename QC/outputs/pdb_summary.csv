@@ -1,0 +1,2 @@
+filename,structure_id,model_count,chain_count,residue_count,atom_count,avg_b_factor,min_b_factor,max_b_factor,geometric_center
+example_public_structure.pdb,example_public_structure,1,1,46,327,6.921559633027523,3.38,28.98,"(9.27, 9.79, 6.97)"

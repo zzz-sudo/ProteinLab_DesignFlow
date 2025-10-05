@@ -1,0 +1,11 @@
+sequence_id,pdb_file,rosetta_score,md_success,md_rmsd,md_stability_score,md_error
+protein_backbone_16_esm_if_001,protein_backbone_16_esm_if_001.pdb,245.50720350203622,False,0.0,0.0,MD模拟超时
+protein_backbone_3_esm_if_006,protein_backbone_3_esm_if_006.pdb,246.8956395436213,False,0.0,0.0,MD模拟超时
+protein_backbone_4_esm_if_004,protein_backbone_4_esm_if_004.pdb,247.1438740001043,False,0.0,0.0,MD模拟超时
+protein_backbone_7_esm_if_001,protein_backbone_7_esm_if_001.pdb,248.36779222502145,False,0.0,0.0,MD模拟超时
+backbone_backbone_0003_proteinmpnn_004,backbone_backbone_0003_proteinmpnn_004.pdb,248.73347521338488,False,0.0,0.0,MD模拟超时
+backbone_backbone_0004_proteinmpnn_002,backbone_backbone_0004_proteinmpnn_002.pdb,249.0632273546923,False,0.0,0.0,MD模拟超时
+backbone_backbone_0013_proteinmpnn_005,backbone_backbone_0013_proteinmpnn_005.pdb,249.616387252753,False,0.0,0.0,MD模拟超时
+protein_backbone_12_esm_if_008,protein_backbone_12_esm_if_008.pdb,251.01305050626087,False,0.0,0.0,MD模拟超时
+protein_backbone_19_esm_if_010,protein_backbone_19_esm_if_010.pdb,252.59345720018806,False,0.0,0.0,MD模拟超时
+protein_backbone_5_esm_if_008,protein_backbone_5_esm_if_008.pdb,252.7200100928455,False,0.0,0.0,MD模拟超时

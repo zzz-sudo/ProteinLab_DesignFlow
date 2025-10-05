@@ -1,0 +1,167 @@
+Docker GROMACS 使用指南
+=======================
+
+作者: Kuroneko
+日期: 2025.10.3
+
+## 1. 安装 Docker Desktop
+
+### Windows 系统:
+1. 访问 Docker 官网: https://www.docker.com/products/docker-desktop/
+2. 下载 Docker Desktop for Windows
+3. 运行安装程序，按照提示完成安装
+4. 重启计算机
+5. 启动 Docker Desktop 应用程序
+
+### 验证安装:
+```bash
+docker --version
+```
+应该显示类似: `Docker version 28.4.0, build d8eb465`
+
+## 2. 检查 Docker 状态
+
+### 检查 Docker 是否运行:
+```bash
+docker ps
+```
+如果 Docker 正在运行，会显示容器列表。如果显示错误，说明 Docker 未启动。
+
+### 启动 Docker Desktop:
+- 在 Windows 开始菜单中找到 "Docker Desktop" 并启动
+- 等待 Docker 图标在系统托盘中显示为绿色
+- 或者使用命令行启动服务
+
+## 3. 启动 GROMACS 容器
+
+### 方法一: 使用 Docker 命令 (推荐)
+```bash
+# 停止并删除现有容器 (如果存在)
+docker stop gromacs_md
+docker rm gromacs_md
+
+# 启动新的 GROMACS 容器
+docker run -d --name gromacs_md \
+  -v "F:\Project\蛋白质设计\scores:/workspace/scores" \
+  -v "F:\Project\蛋白质设计\output:/workspace/output" \
+  -v "F:\Project\蛋白质设计\scripts:/workspace/scripts" \
+  -v "F:\Project\蛋白质设计\logs:/workspace/logs" \
+  -w /workspace \
+  gromacs/gromacs:latest \
+  tail -f /dev/null
+```
+
+### 方法二: 使用 docker-compose
+```bash
+# 在 F:\Project\蛋白质设计 目录下运行
+docker-compose up -d
+```
+
+## 4. 验证 GROMACS 容器
+
+### 检查容器状态:
+```bash
+docker ps
+```
+应该看到名为 `gromacs_md` 的容器正在运行。
+
+### 测试 GROMACS:
+```bash
+docker exec gromacs_md gmx --version
+```
+应该显示 GROMACS 版本信息。
+
+## 5. 运行 MD 模拟
+
+### 进入项目目录:
+```bash
+cd F:\Project\蛋白质设计
+```
+
+### 运行 GROMACS MD 脚本:
+```bash
+python scripts/run_gromacs_docker.py
+```
+
+### 脚本功能:
+- 自动创建 GROMACS 参数文件
+- 对前10名最佳序列进行 MD 模拟
+- 生成稳定性分析结果
+- 保存结果到 `scores/gromacs_md_results_iter1.csv`
+
+## 6. 查看结果
+
+### MD 模拟结果:
+- 文件位置: `F:\Project\蛋白质设计\scores\gromacs_md_results_iter1.csv`
+- 包含每个序列的 RMSD、稳定性分数等信息
+
+### 中间文件:
+- 轨迹文件: `scores/*.xtc`
+- 结构文件: `scores/*.gro`
+- 拓扑文件: `scores/*.top`
+
+## 7. 常见问题解决
+
+### 问题1: Docker 未启动
+```
+错误: Cannot connect to the Docker daemon
+解决: 启动 Docker Desktop 应用程序
+```
+
+### 问题2: 容器启动失败
+```
+错误: Unable to find image 'gromacs/gromacs:latest'
+解决: 检查网络连接，Docker 会自动下载镜像
+```
+
+### 问题3: 权限问题
+```
+错误: Permission denied
+解决: 确保 Docker Desktop 有足够权限访问项目目录
+```
+
+### 问题4: MD 模拟失败 - 电荷警告
+```
+错误: Too many warnings (1)
+解决: 已修复！脚本现在使用 -maxwarn 1 参数忽略电荷警告
+```
+
+### 问题5: 参数文件过时
+```
+错误: Ignoring obsolete mdp entry 'ns_type'
+解决: 已修复！移除了过时的 ns_type 参数
+```
+
+## 8. 停止和清理
+
+### 停止容器:
+```bash
+docker stop gromacs_md
+```
+
+### 删除容器:
+```bash
+docker rm gromacs_md
+```
+
+### 删除镜像 (可选):
+```bash
+docker rmi gromacs/gromacs:latest
+```
+
+## 9. 完整使用流程
+
+1. 确保 Docker Desktop 已安装并运行
+2. 打开命令行，进入项目目录: `cd F:\Project\蛋白质设计`
+3. 启动 GROMACS 容器: `docker run -d --name gromacs_md -v "F:\Project\蛋白质设计\scores:/workspace/scores" -v "F:\Project\蛋白质设计\output:/workspace/output" -v "F:\Project\蛋白质设计\scripts:/workspace/scripts" -v "F:\Project\蛋白质设计\logs:/workspace/logs" -w /workspace gromacs/gromacs:latest tail -f /dev/null`
+4. 验证容器: `docker exec gromacs_md gmx --version`
+5. 运行 MD 模拟: `python scripts/run_gromacs_docker.py`
+6. 查看结果: `scores/gromacs_md_results_iter1.csv`
+
+## 10. 注意事项
+
+- 首次运行会下载 GROMACS 镜像，需要一些时间
+- MD 模拟可能需要较长时间，请耐心等待
+- 确保有足够的磁盘空间存储轨迹文件
+- 如果遇到问题，可以查看 Docker Desktop 的日志
+- 电荷警告是正常的，脚本已配置忽略这些警告

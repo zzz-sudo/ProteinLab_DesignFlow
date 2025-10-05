@@ -1,0 +1,15 @@
+services:
+  gromacs:
+    image: gromacs/gromacs:2023.2
+    container_name: gromacs_md
+    volumes:
+      - ./scores:/workspace/scores
+      - ./output:/workspace/output
+      - ./scripts:/workspace/scripts
+      - ./logs:/workspace/logs
+    working_dir: /workspace
+    environment:
+      - GMX_MAXBACKUP=-1
+    command: tail -f /dev/null
+    stdin_open: true
+    tty: true

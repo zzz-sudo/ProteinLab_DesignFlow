@@ -1,0 +1,10 @@
+sequence_id,source_type,length,original_length,detected_type,is_valid,issues,complexity_score,most_common_aa,most_common_ratio,special_chars,description
+sp|P69905|HBA_HUMAN,user,142,142,protein,True,None,0.793,A,0.148,None,Hemoglobin subunit alpha OS=Homo sapiens OX=9606 GN=HBA1 PE=1 SV=2
+sp|P68871|HBB_HUMAN,user,147,147,protein,True,None,0.824,V,0.122,None,Hemoglobin subunit beta OS=Homo sapiens OX=9606 GN=HBB PE=1 SV=2
+sp|P69905|HBA_HUMAN_modified,user,142,152,protein,True,None,0.793,A,0.148,None,Hemoglobin with special characters
+sp|P69905|HBA_HUMAN_with_X,user,148,148,protein,True,None,0.792,A,0.142,None,Hemoglobin with unknown amino acids
+sp|P69905|HBA_HUMAN_low_complexity,user,182,182,protein,False,可能的低复杂度区域（单字符重复率 > 30%）,0.644,A,0.335,None,Hemoglobin with low complexity regions
+sp|P69905|HBA_HUMAN_short,user,60,60,protein,True,None,0.797,A,0.133,None,Short sequence for testing
+sp|P69905|HBA_HUMAN_mixed,user,182,182,protein,True,None,0.755,A,0.170,None,Mixed DNA and protein characters
+sp|P69905|HBA_HUMAN_special_chars,user,174,174,unknown,False,"包含特殊字符: {')', '!', '`', '/', '>', '[', '.', '#', '=', ']', '""', '{', '(', '<', '&', '~', ';', '@', ""'"", '$', '+', '\\', '}', '_', ',', '^', '%', '?', ':', '|'}",0.831,A,0.121,"!, "", #, $, %, &, ', (, ), +, ,, ., /, :, ;, <, =, >, ?, @, [, \, ], ^, _, `, {, |, }, ~",Hemoglobin with special characters and symbols
+sp|P69905|HBA_HUMAN_empty,user,0,0,dna,False,序列长度为0,0.000,N/A,0.000,None,Empty sequence

@@ -1,0 +1,141 @@
+{
+  "extraction_info": {
+    "timestamp": "2025-10-03T23:58:02.763810",
+    "iteration": 1,
+    "total_sequences_analyzed": 360,
+    "top_n": 10,
+    "scoring_method": "alternative"
+  },
+  "top_sequences": [
+    {
+      "rank": 1,
+      "sequence_id": "protein_backbone_16_esm_if_001",
+      "pdb_file": "protein_backbone_16_esm_if_001.pdb",
+      "total_score": 245.50720350203622,
+      "clash_score": 100.0,
+      "rama_score": 24.489795918367346,
+      "solvation_score": 7.7429094314575195,
+      "compactness_score": 2.0592003860553607,
+      "scoring_method": "alternative",
+      "sequence": "HQDDHDKYGLYLSDKQDDNWFTVWTFAGWAANYMENKLYKAYIQAIGAGFTMYVNSQTVQTRRGQRITQVWHAWVKTKDEEAAYEVAVDSLSDLLSRKKT",
+      "length": 100
+    },
+    {
+      "rank": 2,
+      "sequence_id": "protein_backbone_3_esm_if_006",
+      "pdb_file": "protein_backbone_3_esm_if_006.pdb",
+      "total_score": 246.8956395436213,
+      "clash_score": 100.0,
+      "rama_score": 20.408163265306122,
+      "solvation_score": 13.721190452575684,
+      "compactness_score": 5.124408386172831,
+      "scoring_method": "alternative",
+      "sequence": "DYVAKMAVADDTVLNIVFEGLTRAGNSNTEMFWGGYYIRQSEGWFQWYKQTSKKLLSSTAFVAVAILYYRNNNEERAAFFHVKEIDEGAHTVYSTHKNNN",
+      "length": 100
+    },
+    {
+      "rank": 3,
+      "sequence_id": "protein_backbone_4_esm_if_004",
+      "pdb_file": "protein_backbone_4_esm_if_004.pdb",
+      "total_score": 247.1438740001043,
+      "clash_score": 100.0,
+      "rama_score": 22.448979591836736,
+      "solvation_score": 11.45305347442627,
+      "compactness_score": 4.034702275845806,
+      "scoring_method": "alternative",
+      "sequence": "HQDSERMFETWGHEVARLATHFEKYKGWTHSAATSYAKGEAGLHDSSNNTSGYAAAAYVAWTDDRQLVVFGDSLVKWDGVYNVVYHMYADFGQWSVQRRN",
+      "length": 100
+    },
+    {
+      "rank": 4,
+      "sequence_id": "protein_backbone_7_esm_if_001",
+      "pdb_file": "protein_backbone_7_esm_if_001.pdb",
+      "total_score": 248.36779222502145,
+      "clash_score": 100.0,
+      "rama_score": 23.46938775510204,
+      "solvation_score": 11.188578605651855,
+      "compactness_score": 3.9502639734330116,
+      "scoring_method": "alternative",
+      "sequence": "TQDRVKHGLHDFMDVLRFIVRIFSGWESNYQELFNHFAHIMETGAGKIMHDNAQTVMIRWGQWITQVHEVKTKDGAEAAYEVAVDSLSDLLSSFHKAHHQ",
+      "length": 100
+    },
+    {
+      "rank": 5,
+      "sequence_id": "backbone_backbone_0003_proteinmpnn_004",
+      "pdb_file": "backbone_backbone_0003_proteinmpnn_004.pdb",
+      "total_score": 248.73347521338488,
+      "clash_score": 100.0,
+      "rama_score": 20.408163265306122,
+      "solvation_score": 15.236915588378906,
+      "compactness_score": 5.768629454093556,
+      "scoring_method": "alternative",
+      "sequence": "TKCSTTSSGNEETKKESKKTTEECKKECPKTECETCESETKEETEKKTKKKEEENEKKGKKTKTTTCSQNRKTKSTTHNCTPENSEECKKKTKEECKKEE",
+      "length": 100
+    },
+    {
+      "rank": 6,
+      "sequence_id": "backbone_backbone_0004_proteinmpnn_002",
+      "pdb_file": "backbone_backbone_0004_proteinmpnn_002.pdb",
+      "total_score": 249.0632273546923,
+      "clash_score": 100.0,
+      "rama_score": 23.46938775510204,
+      "solvation_score": 11.825560569763184,
+      "compactness_score": 4.067170304552037,
+      "scoring_method": "alternative",
+      "sequence": "SEERKKEREETKKKTKEESEKCKTTEECKKTHKENCKKQGDKTETEEDEETGKTTTTTTREHEGKTHTETTTTDSDKEETKKKQQETQEKTEKKEEESEK",
+      "length": 100
+    },
+    {
+      "rank": 7,
+      "sequence_id": "backbone_backbone_0013_proteinmpnn_005",
+      "pdb_file": "backbone_backbone_0013_proteinmpnn_005.pdb",
+      "total_score": 249.616387252753,
+      "clash_score": 100.0,
+      "rama_score": 31.63265306122449,
+      "solvation_score": 1.172717809677124,
+      "compactness_score": 1.9893797024782136,
+      "scoring_method": "alternative",
+      "sequence": "SSSEEKEKECEKCCEECKKCKTEEEGKKHCTKCCEECEKTHGKETTKECCHKCHKKCRKEDKKKSECCRETCEEHCKKESEEDCKEHKEKCEKEDKEEES",
+      "length": 100
+    },
+    {
+      "rank": 8,
+      "sequence_id": "protein_backbone_12_esm_if_008",
+      "pdb_file": "protein_backbone_12_esm_if_008.pdb",
+      "total_score": 251.01305050626087,
+      "clash_score": 100.0,
+      "rama_score": 28.57142857142857,
+      "solvation_score": 7.185832500457764,
+      "compactness_score": 1.9401502973204885,
+      "scoring_method": "alternative",
+      "sequence": "REERHKNRRTNFSLMSHIYKEMAKKRVATYFWVFSVLMGSNSGDEWWQNVLQSLWDTFHWDNHTMEQWGHEADSHTDSLNSGMNVAENISHRAAQQDRST",
+      "length": 100
+    },
+    {
+      "rank": 9,
+      "sequence_id": "protein_backbone_19_esm_if_010",
+      "pdb_file": "protein_backbone_19_esm_if_010.pdb",
+      "total_score": 252.59345720018806,
+      "clash_score": 100.0,
+      "rama_score": 30.612244897959183,
+      "solvation_score": 5.749611854553223,
+      "compactness_score": 1.8509559973921519,
+      "scoring_method": "alternative",
+      "sequence": "KRSKRSWFRRFFQYSKSYGIFVSEAHFRGLMDVMANWVIMWAGHRDWTKIIQHVLQKGTEQVQQFFKSSMDRFKHVSESKRKGLERHLDDFWNTFHQDDT",
+      "length": 100
+    },
+    {
+      "rank": 10,
+      "sequence_id": "protein_backbone_5_esm_if_008",
+      "pdb_file": "protein_backbone_5_esm_if_008.pdb",
+      "total_score": 252.7200100928455,
+      "clash_score": 100.0,
+      "rama_score": 24.489795918367346,
+      "solvation_score": 13.665905952453613,
+      "compactness_score": 4.638820525681759,
+      "scoring_method": "alternative",
+      "sequence": "REERHKNRWTNFANQSYTYFEQAKKRDETHFWFSVLMGSLADEWRQLDNQNRVIFYWDLSYTMEQRHAAGVSAGGYIVAWLNSQLDSAWNIFSHWASHHQ",
+      "length": 100
+    }
+  ]
+}

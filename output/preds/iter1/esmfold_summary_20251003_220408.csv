@@ -1,0 +1,4 @@
+sequence_id,sequence,length,design_method,backbone_id,ptm,plddt,passes_quality,pdb_file,prediction_method,fallback_to_mock,error,timestamp,mock_prediction
+backbone_backbone_0000_proteinmpnn_001,SEREEREEREREERERRREERRERGEDEGESERETTTRECCEREEESEERGTKTEEEREEERETRERSTERRDGTSREETRRRREEERRRREEERRREEE,100,proteinmpnn,backbone_0000,,,False,,failed,False,预测失败,2025-10-03T22:04:08.274880,False
+backbone_backbone_0000_proteinmpnn_002,SERERKRRETEERRERERKEREERGETKGKSREETHTEESTERQEEEERRGRRTEEEREETRETDEESRERETGTSREETRERTERRRRERREEEERRRR,100,proteinmpnn,backbone_0000,,,False,,failed,False,预测失败,2025-10-03T22:04:08.285275,False
+backbone_backbone_0000_proteinmpnn_003,EEREKEEKKRREETRKKEEERRKKGETKGKTREETRTEESTEKEQEEEEKGTKTEEERRRRRETETRSEEKETGTSREETEKKREERRKKREEEKRKEKE,100,proteinmpnn,backbone_0000,,,False,,failed,False,预测失败,2025-10-03T22:04:08.296011,False

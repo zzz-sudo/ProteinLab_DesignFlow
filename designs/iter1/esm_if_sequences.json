@@ -1,0 +1,1332 @@
+{
+  "design_method": "esm_if",
+  "timestamp": "2025-10-03 04:58:18",
+  "parameters": {
+    "num_sequences": 10,
+    "max_backbones": 20,
+    "iteration": 1,
+    "seed": 42
+  },
+  "results": {
+    "protein_backbone_0": {
+      "backbone_file": "protein_backbone_0.pdb",
+      "backbone_id": "protein_backbone_0",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_0_esm_if_001",
+          "sequence": "TQDRDFYGNYSDKMDDLWKTVWTKSRASHHQENKLYFAYIMETGAKIQHDNAQTDQIWRQWITGMVYAWVKTKDGEASEYADAVDNAVNNSKHEHEDHTK",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_0_esm_if_002",
+          "sequence": "ESTRRAMINVAQNGTNLMRKFARESSGNKKKEDKAWAMLGGSHSSRWREDQYQNKNVMHEMYDFWMWMAMRTHSADIQTWASMYKHVGKREKDKNKHDEH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_0_esm_if_003",
+          "sequence": "EQTEHMAFQSADDYQDMMHRFWTEDKWQKKNEEHSLAMFAMNNILNGETEKLKHDRWYNRIATASAGMYWRSESFNGDHYLRAFNEAFNKENTKHDKQQH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_0_esm_if_004",
+          "sequence": "HQDSEWMFEIWHEVERLATHFAKHKTYEQTHSKEAGLYVAANNYAHAEESHVERTQVWQNVVKGGGGVLLDKRDGDYNDVYHMYSDFGQRDQRRDTSNHH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_0_esm_if_005",
+          "sequence": "EREKRMLANAADHLNNLYDEAYSNKEATRESDRSIWAAYVASHYANVSQKNYRRHQFYQTALRGAWLFWLQEKNMQWRDFGQGYHDYWTDRKRDKDTKSH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_0_esm_if_006",
+          "sequence": "NHDEEMAVSVVTDLNTVFENGIRSNSLTEQKRHHIWMSGSAKQWYKSQTKKLNSSTAFSEGSHYSGWLLGNEERASFKHVFEIVEEGYTDHSTNNDEERD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_0_esm_if_007",
+          "sequence": "KQTKHAAYHLAHHADELLRNSWNHNTWHKRNHHRSYLLWFVQNAMQYSNTHGQTDKLIHQSWSVFLIGMAQSDKAQMTSYWRSSNSASERHDHSSDQRTT",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_0_esm_if_008",
+          "sequence": "REERHFLWRILKSLQHIYKEMAKKRDATTKRKDNMGALAGVERWMNVNQNRVTKHRVLHTMAQWGYAAMGDSHTVSLNSFGQLVSELIHRESQQRSHTNK",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_0_esm_if_009",
+          "sequence": "KSHETFYWHYWNDFQHFIRSYMNQQQLSDNSQSSSVMAVFFSSMSQIKRDSMRHTKFFRKYMSWAMYLLAERKDAKFNTLADGIREMMRQHEHSENRHTR",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_0_esm_if_010",
+          "sequence": "KRSKRAWFRSWKKMHKSYTKVAEEHKWNDDDQENWVIMWAGHRVWTFTTQHVNQKTAMDQMFKSFAAMVGRKKHVEAKRFGNAWHNVVKRNTKQHKDHND",
+          "length": 100,
+          "method": "esm_if"
+        }
+      ]
+    },
+    "protein_backbone_1": {
+      "backbone_file": "protein_backbone_1.pdb",
+      "backbone_id": "protein_backbone_1",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_1_esm_if_001",
+          "sequence": "HDDRDKHNHDKQDVLWFTDWTKSGRESSNHMANKNYFAYIMAMIGAETQHDNAQTDMTRRGQRTTQDYADKTKDGEASAHEDSDVNSDLLASFGYGAKYA",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_1_esm_if_002",
+          "sequence": "KKTRRSQTNDSQNGILMNQWKKSWESSGNSFFEDKAWAMLIGWAYSSRREDQYQNKLDQHAQHDKRQWMEQRTHASVTMTRESQYKHDGFWAFVFKLGYV",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_1_esm_if_003",
+          "sequence": "KDTEHQSKQEDDHGMVMQHWKRTADKRMSKGLEEHSLAMFAMLLILHETEKNSKHDWRHNWTETESQWGRSESKLDYHLRSKNEAKNKALIGLSFYDRDG",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_1_esm_if_004",
+          "sequence": "HDDSERQKETRHEVAWFNEIHKESKHKGTHSAETHAFIAAILYVAAHNHSHSAESHVERTMDRQNDDFGDNDKRVDYNVDHHQHADKQWSVMWWVDIALK",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_1_esm_if_005",
+          "sequence": "ESEKRQNSNESDHLLLLHDAEHSLKEEITEAVRSTWAAYVYAFASYTSNDSQFNHRWHQKYQTSNRSWLKRNQEFNMQWRDQHHVHRTVGWFWVGFVEIE",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_1_esm_if_006",
+          "sequence": "DTDEEQSDSDDTDLSLMTDFENTWSNSLTKMFRHHIMWMSISAGFMSHKQTKFNNSGSTEFSEHHRNLGNEEREAKFHVKETDEGEHTVYAIMGLDLVAA",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_1_esm_if_007",
+          "sequence": "SDTKHSSHHNSHHAVSANNWNRNYNTRYSRLYHRHLWLFWFVMLAMDHSNTHGQTDFNTHMRSDKNTGMSQSDKAQMTSSHRRNSSEEWYVYAAMEWIYS",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_1_esm_if_008",
+          "sequence": "REERHKNRRTNKSLMSYTHFEQEGKKRVETYFRKDLMIALAGFVAWSQNDNQSNRDIKHRVNHTQEQWGHEEDSGHIDANNSQNVSENISYWAAMMRWAY",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_1_esm_if_009",
+          "sequence": "SKHETKHRHHRNDFMSLHKIRSHMNQQSQNAMNSQAWWYAMSVMAVEKSSQQIKRDAQRHIKKKRKHMAREQHNSEARSKDEKKLTEDGIWAMMWSMYAE",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_1_esm_if_010",
+          "sequence": "KSSKRSRKRRKKQYSFLHTFDSEAHKRGNQVVQENWYVIMWAIYWVSTKTTQYDNQFTEQVQQKKKSAMDRKKHVEAKWKNERHLDDKWLIIFMYGRKLR",
+          "length": 100,
+          "method": "esm_if"
+        }
+      ]
+    },
+    "protein_backbone_10": {
+      "backbone_file": "protein_backbone_10.pdb",
+      "backbone_id": "protein_backbone_10",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_10_esm_if_001",
+          "sequence": "HMDRVFHGLYDFMDVLWKIVWTFARESSNHQELKNYFEHIMEIGEKIMHVYNSQTDMTRWQRIGTQVYEDKIFDGAESEYEDAVDNAVNNAKHGEHHEDH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_10_esm_if_002",
+          "sequence": "KATRSAQILVSMLTLLMRFFARAASNSFKEDKVERAMNSYSRWWEDMYQLYKNDQHAQHVKRMWQEMWTHSAVTMIRESMHKYVKRAFDKLHDAETEKHD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_10_esm_if_003",
+          "sequence": "KMTEKMSFMSEVVHGMVQMYWKWGTEDFRQSKINEASHNAMKAMNNILNGATEKNKYDRWHNWIETASSQRGWSASSKNGDHYLRSFLEEFNKANTKRRE",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_10_esm_if_004",
+          "sequence": "HDQDAWQFGATWGHAVARLAIHFAKHKGTHEEIHSFGESGLHVASNGLHAIHSEESYDEWTQVWQNVVKDNVGKWVDHNVDHYMHSVFQRSDQWRDTSNH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_10_esm_if_005",
+          "sequence": "EWEKSMNALASVYNLLLHVAAHALKEEITESDWSTWASHVASSYHSLVSSMKNHRRYQKYQTALRSWLKRNMAKLMQRRVQHYVHRGIDRFRDGKDTKSH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_10_esm_if_006",
+          "sequence": "DYDEAMSVAVDIVNSLIDFAGNGIRSNANTKQFRHYIRQSGEGFQRYFQILKKNNSGSTAKSAGHHSGRNNGLEAWESKFHDFATDAGEHIDHATHKNNN",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_10_esm_if_007",
+          "sequence": "SMTKKASYYLSYYSVSANLWLRGLHNTWHSRNYHRSYNNWFDMLSQMYSLIHQTDKLTHMRSVFNTGMSQSVFSMMTSHWRNSAEEWYDHASQWTHRNTD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_10_esm_if_008",
+          "sequence": "RHERYFNWWINFANMSYTYFAQAGKKRVETHKWRKSVNQGANAGDEWWQLVNQNRDIKHWDNSYTQAMRHEAGDSAHTDANNGGSQLVSELTHWESHHQD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_10_esm_if_009",
+          "sequence": "SAHEIFHWYYRLSDFMSHFIWSYMNQQSQNSQLSQAADQAVKFASQSMTGWKRDSQWHTFKKWFHQAWEQHLSEAWKDEFKNSIEDGIREMQRSQHEHSQ",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_10_esm_if_010",
+          "sequence": "KWSKWARFGWRFFQYSFHGIFDAAEHKWNQDDWQELWDTMWEGYRDWIKIIQHDNQFTEMDQMFKKAAQDRFFHVSESKWKNAWHNVVKRLTKMHKDHND",
+          "length": 100,
+          "method": "esm_if"
+        }
+      ]
+    },
+    "protein_backbone_11": {
+      "backbone_file": "protein_backbone_11.pdb",
+      "backbone_id": "protein_backbone_11",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_11_esm_if_001",
+          "sequence": "TQDRDKHNHDKQDDNRFIDWIKSGWESSSNHQELFNYFEYIQEIGEKIMHDNAMTDMIWRGMRIGIQVHEVKTKDEAAEYAVSDVNSVLNSKHEHEDHTK",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_11_esm_if_002",
+          "sequence": "ESTRRSQTNDSQNTNNMWKFAREASSNAFKEDKAWSMLSYSRRWADQYMNKNVMHEMYVKWMRMAMRSTHASDTQTWASMYGKHVKRAFDKNHDEHETEK",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_11_esm_if_003",
+          "sequence": "EQTEHQSKQEDDHQDQMYRFWTEVFRQASKNEESYNAMKAMNNILNEIAKNKYVRRYLWTAGTASAQWRSASKNDHYLRAFLEEFNKALTKHQQNDDHRR",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_11_esm_if_004",
+          "sequence": "HQDSERQKETRHEDERLATYFEKYFTHSAETHSFGEAGNYVSSSLNHAGHSEAAHDAWIQVWQLVVKGDNVKRDDHLVDYMYQHADKGMRDQRRDTSNHH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_11_esm_if_005",
+          "sequence": "EREKRQNSNESDHNNNLYDAAHSLFEEIIESDRAIRAAHVASHYANDSGSQKLYRRYMFHMISLWGSWNKWNQEKNMMRWVGQHYDHWGTDRKRDKKDTE",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_11_esm_if_006",
+          "sequence": "NHDEEQSDSDDTDNNTVFEGLTRAGNSLIKQKRGGHYIRMSEKMWHKSMTKKLLSSIAFSAGHYSGRLNNAERESKFYDFAIDEGEHIVHSTNNDEERDQ",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_11_esm_if_007",
+          "sequence": "KQTKHSSHHNSHHSDELLRLSRNYLTRYARNHHWSHLLRFVQNAMQHALTHQGIDKLISHMSRAVFNIQSMSDKSQMISYWWNSAERYVHSSQRTHRNTD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_11_esm_if_008",
+          "sequence": "REERHKNRRTNKSNQHIYKAMEKFSRDAIHKRKSVNMGSLADEWWQNVLQNRVIKHWVLHSSTMAMRGHEADSHTDALNGIAQNVSELIHRESQQDRSHR",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_11_esm_if_009",
+          "sequence": "KSHETKHRHHRNDKQHFIRSGSHMLQQSMNSQNSAQAADMADKFASQSMTKRVAQRYIFKFWKYMARAQHLEERKDAFKLVSTEVTRAMQRQHEHSENRH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_11_esm_if_010",
+          "sequence": "KRSKRSRKRRKKQHKHGIKVAEEYFRNMVDQENWVTMWEGYRDWIKTIMHDNMFTEMVMQFFKAAMDGRKFHDESKWFNAVWHNVDKWLTKQHNHSESST",
+          "length": 100,
+          "method": "esm_if"
+        }
+      ]
+    },
+    "protein_backbone_12": {
+      "backbone_file": "protein_backbone_12.pdb",
+      "backbone_id": "protein_backbone_12",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_12_esm_if_001",
+          "sequence": "TQDRDKHNHDKMDVLWKIVRTFARESSSNYMALFLYFAYTQEIEKIMHDLAQIVMTRWQWTTQDYEDFIKDGEESEHEVSDVSNAVNNASKHGAHEDHTK",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_12_esm_if_002",
+          "sequence": "ESTRRSQTNDSMNGILNMWKKAWESSGLSFFAFGVFAWAQNSYRRWADQYMNSFLDQYEMHDKRMRQAMRTYSSDTQTWESMYKYVKRAFDKLGHDEHER",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_12_esm_if_003",
+          "sequence": "EQTEHQSKQEDVHGMVQMYRKWITEDFWQASFILAASYSNSQFEQLLTNLGEIAGKNSKYDRRHLRTAGTESSQRRSESSKLGDYYNRAFNEAFNKENTK",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_12_esm_if_004",
+          "sequence": "HQDSERQKETRGHAVARLATHFYEKHFGTYSAAISYAFGESNYDSASNNYAHAAASHVEWTQDRGQNVVKDSNDKRDDYNDVYHMYSDFGQRSVQRRDTK",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_12_esm_if_005",
+          "sequence": "EREKRQNSNESVHLLLNYVEEYFSNKAATIAAFVWAIWASHDASHYANDSGSSMFNHWRYQKHQISNWGSRLKRNQEKLQQWWDGMHHVYRTVGRKRDKE",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_12_esm_if_006",
+          "sequence": "NHDEEQSDSDDIDLSLTVFENGIRSNALTFMFWGGYYIWQEKMRHFSQTSFKLLASTAKAEHHRLNNAAREAKKHDKEIDEGAHIVHSIGNNVAERDEHT",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_12_esm_if_007",
+          "sequence": "KQTKHSSHHNSYHAVSELLRNSWNHNSIRYAWFLYYWSYNNRFDQLAQQYANIYGQTVKLTHQRADKLIQSMSDKSQQISHWWNSAEEWYDHAAQRTHRH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_12_esm_if_008",
+          "sequence": "REERHKNRRTNFSLMSHIYKEMAKKRVATYFWVFSVLMGSNSGDEWWQNVLQSLWDTFHWDNHTMEQWGHEADSHTDSLNSGMNVAENISHRAAQQDRST",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_12_esm_if_009",
+          "sequence": "KSHETKHRHHRLDFMSHFIRSYMNQQSMNAMLLAMAASVQEDFKSSAQQIGKWVAQRYTFKKRKYQSWAQHLEERKDEFKNSIEVGTRAMQRSMHEHSEH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_12_esm_if_010",
+          "sequence": "KRSKRSRKRRKFQYSFHGIKDAAEHKWGNMVVWMALWVIQREGHRVWTKIIQYVLQKGTAQDQQFKKAAQDGRKKHDEAKRFGNAWHNVVKRLGTKHQDD",
+          "length": 100,
+          "method": "esm_if"
+        }
+      ]
+    },
+    "protein_backbone_13": {
+      "backbone_file": "protein_backbone_13.pdb",
+      "backbone_id": "protein_backbone_13",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_13_esm_if_001",
+          "sequence": "TQDRDFYNYSSDFMDDLRKIDRTKAMGRAASNYMENFLHKEYTQAIGEGFIMYVLAMIDQTWRGMRIGIQVYADFIFDEEAEYADSVVNSVNNAKKHKEH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_13_esm_if_002",
+          "sequence": "ESTRRAMTLVAQLGTNLQRFKSREALANAFFEGVKEWAQNSYRRWASDMYMLSFLVMYEQHVKWMRMAMRSIYSAVIQTRASMYKHVGKRAKDFNKHDEH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_13_esm_if_003",
+          "sequence": "EQTEHMAKMSADVYQDMQHWKRTEVFWQASFNAAHNAMKEQLNTLLGEIAGFLSFYVWRHNWTAGTASAQWGWSASAKNDYHLWSKLAEKLKELTKRRKT",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_13_esm_if_004",
+          "sequence": "HQDSEWMKGAIRGYEDARNATHKESFYKGIYEAIHSFGESNYDSASLNYAGYAAAAYVERTMDWGQLVVKGGGDSLVKRDGDYLDDYYQHADKGQERRDD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_13_esm_if_005",
+          "sequence": "EREKRMLSLAADYLNNLHDAEHSNFAATIAADWATRAAHDEAHHALVSSMFLYWWYMFHQTANWGSWLFRLMAKLMMRRDGQGYHDYWTDGRKWDKKDTE",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_13_esm_if_006",
+          "sequence": "NHDEEMADAVVTVLNTVKEGNTRSGFLSLIFQFWHHIWQEKMRHFSMTSFFLLAGSAIEKSAHYSRLLGNAAWEAFFHDKATVAEHIVHSINNVEERDEH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_13_esm_if_007",
+          "sequence": "KQTKHAAHYLAHYADELNRLRNHNSFIRYAWNYYRHLLRKDMNSMMYSLIYGMGIVFLTHQSRAVKLIGQAMADFAMQTSYRWSNSASERYDHASDQRTT",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_13_esm_if_008",
+          "sequence": "REERHFLRWILKALQHIHKAQEKKSVWDAIYKWFDNMGSNSGDEWWMNVLMSLWVIFYRDNSHSSTMAMRGYAEGVSSHTVSLLSQLVSELTHWESHHQD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_13_esm_if_009",
+          "sequence": "KSHETFYRYYWNSVKQSHKIRSHQLVGQMSMNAMNSMASDQADKFASSMSMIGFWVAMRHTFKFWKYMARAMYNSAARKDAKFLTEVGTRAQQWQHEHSQ",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_13_esm_if_010",
+          "sequence": "KRSKRAWKGWSRFFQHSKHGTKDSAAYKWGLQVVQELWDTQWEHWVWTFIIMYVLMFGTEQVQMFKSFASMVGRFFYDESFRFGNEWYNDVKRLTKHQDD",
+          "length": 100,
+          "method": "esm_if"
+        }
+      ]
+    },
+    "protein_backbone_14": {
+      "backbone_file": "protein_backbone_14.pdb",
+      "backbone_id": "protein_backbone_14",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_14_esm_if_001",
+          "sequence": "TQDRVFHNYSDKMDDNRKTDRTKAGWEASNYMANFLHKAYTQAIGAGFIMYVNKQTDMIWWGMWITQDYADFIFDGAASAYEVAVDNSDLLASKGHKEHH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_14_esm_if_002",
+          "sequence": "ESTRSAQTLVSQLTNNQRKKSREASANAFKAGVKAWSQLGSHSSWWWASMSVQTQNKLVMYAMYVKRQWMEMWSTYAADIMTWAAQHKHVGFWEFDDKHN",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_14_esm_if_003",
+          "sequence": "EQTEKMSKMSEDVHQDQQHRKRTAVFRMAKGLAESYNSMFEQLLIVLLGAIAKHKHDWWYLWIMATESGMRGWAESAFNGVHYLWSKNEAFLFELTKRRK",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_14_esm_if_004",
+          "sequence": "HQDSEWQKGATRGHEDERNETHKASFHFGTYSAEISHSFGESGLYVAASLGLHKHSEAAYVAWMIQDRGMNVVFDSLVKWVDYLVDHHQYAVFQWRDQRR",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_14_esm_if_005",
+          "sequence": "EREKSMNSLASDYNNNNHDEEHSLFAEIIEAVWSIWSSYVESSYYVALVLGAQENHRWYMFYMIANRSWLKWLMEFLMQWWDGMGHHDHWGIVRFRDKKD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_14_esm_if_006",
+          "sequence": "NHDEAMSDAVDTVNNTDKENTRSGLANIFQFWGHYIRQSGEKMWYFSMILFFNHSSTAFAAGLFYHRNLGNAAWEAFFHVFEIVAEHTDYAIGNLDEERD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_14_esm_if_007",
+          "sequence": "KQTKKASHYLSHYSDENNRNRNHLSIRYARLYYRSYNNWFDQLAMMYALIYGQRDKNISYMSWMADKNIGQAMADFAMQISSYWWNSEEWYVYSADQRTH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_14_esm_if_008",
+          "sequence": "REERYFNRWINKANQHTHKEQEKFSWDAIHFWFDLMSNAGDEWWMLVLMLLWDRKHRVLSYSLFSTQEMWHAAGDSAGHIVSLLGSQNDAALIHWESHHQ",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_14_esm_if_009",
+          "sequence": "KSHEIFHRYYRNSDKQHKTRSHQLGMQSMNAMLSMASDMADKFASMAMSWMIKSDSQWYIFFFFWKHQAWEMYLEAWSKVAKFLSTEDTWAMMRSQHEHS",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_14_esm_if_010",
+          "sequence": "KRSKWARKGWRKFQHKHTKDSEEYFWNMVDMALRVIQRAGHRVWIFIIMYVLQETEQVMMFFWLFSSQVGRFFYDSGASFWKGLARHNDVFWLTFHQDDH",
+          "length": 100,
+          "method": "esm_if"
+        }
+      ]
+    },
+    "protein_backbone_15": {
+      "backbone_file": "protein_backbone_15.pdb",
+      "backbone_id": "protein_backbone_15",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_15_esm_if_001",
+          "sequence": "TQDRVFHNYDKMVDNRFTDRTFAGWAANYMANFLHKAHTQAIGAIFIMYDLWAMIVQTRRQRIIIGMVHAWVKIFDEASEHEDAMVVSLAVLNSSFKHKQ",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_15_esm_if_002",
+          "sequence": "ESTRSAQTLDSMLTNNMRKKSWAASAGNAFFEGVKEWSQNGGAYLSWWWESMSVMYQNKNDQYAMYVFRMWMEMWTHASDTQTWWAAMYGFYDKWAKDDE",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_15_esm_if_003",
+          "sequence": "EQTEKMSKMEDVYQDQMHRKRGIAVFWQASFNAAHNAQKEMLLIVLLGATAIFLSFHDRRHNWIAGIASGMWRAASKLDHHNRAFLAAFLFANTGSRKHD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_15_esm_if_004",
+          "sequence": "HQDSEWQKGETWGHEDARNETYFASFYKGIYEAIHSFESNYVAAMSLGLHAIYAAASHDERTMVWGMLDVFGDSLDKWDDHNDVYYMYAVFGQRSVQRRN",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_15_esm_if_005",
+          "sequence": "EREKSMNSLESVYNNNLHDEEYALFAATIAADWATRASHDAASYYALVSSSMFLYWRHQKHQIALWGARLFWNMAKNMQRRDQGYYVYWGIVRKWVKKDR",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_15_esm_if_006",
+          "sequence": "NHDEAMSDADDIVNNTVKENTWAGLALTFMFRGGHHIRQEGFMWYFSMIKFFLLAGSTEKSEGLYYSGRLLGNAAREAKKHDKAWIVAGAGYTDYATHKH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_15_esm_if_007",
+          "sequence": "KQTKKASHYNSYYSDELNRNRGLYLSIRYAWNYYRHLNRKVMLAMMYALTYYGMGIDKNTHQSWAVFLTGMAQAVKSMQTSHRWLSGGLSAAERYVHSSD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_15_esm_if_008",
+          "sequence": "REERYFNRWTNFANQHIHKEQAGFFSWDAIYKWFDNMSNSGVAWWMLVLQSLWVIFHRDNHTMMAMWGHAAGDSAHTVSNNSQLMVAALISYREAKHQQD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_15_esm_if_009",
+          "sequence": "KSHEIFHRYHRLSDKQSHKTRSGAYMLQMSMNAMNSMSSDMAVFFASAMQIWGFWVSQRHTKFFWFYMSWAMHLSEEWKDEKKLVSISAVGIREMMRRQT",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_15_esm_if_010",
+          "sequence": "KRSKWARKGRRFFQHKSHTKDAAAYFWNMVVQALRDIQREGYWVWIFIIQYMVLMFTEQDQQFFSFAAQVIWKFYDEAKRKNEWVYLVVFWLTKMRDHKD",
+          "length": 100,
+          "method": "esm_if"
+        }
+      ]
+    },
+    "protein_backbone_16": {
+      "backbone_file": "protein_backbone_16.pdb",
+      "backbone_id": "protein_backbone_16",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_16_esm_if_001",
+          "sequence": "HQDDHDKYGLYLSDKQDDNWFTVWTFAGWAANYMENKLYKAYIQAIGAGFTMYVNSQTVQTRRGQRITQVWHAWVKTKDEEAAYEVAVDSLSDLLSRKKT",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_16_esm_if_002",
+          "sequence": "KSTWHSQILVAMLTNNQRKFARAASGLAFFADFARSQLGSYLSRWWASSVQYMLKNDQYEQHDFRQWQEMYRSIYSSDTQTWAAQYGFHVGKRAFDDKHH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_16_esm_if_003",
+          "sequence": "KQTHDQSFMSAVVHQDQQHWFRGIEVFWMASKGLEEHSLSMFAQLLILLGEIAGKNKHVRRHNWTEGTESAQWIWSESKNDYYLRAFLEAFNKALTKRRE",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_16_esm_if_004",
+          "sequence": "HQDAWQKGAIWIYEDERNEIYKASKYFGIYSEAIHSKGASGVLHVAASLGNYAGHSEEAHDERIQDWQNVVKGIGDNDKRDGVYNVVYHMYSDFGQERRN",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_16_esm_if_005",
+          "sequence": "EREFHQNALAAVVHNNNNHVAEYANFAAIIASVWSTRAAHVYASSYYALVSSMFNHRRYQKHQISNWSRLFRLFMEKNQQRWVGQGYYDYWTDGWKRDKE",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_16_esm_if_006",
+          "sequence": "DHDAKQSVAVVWIDNNTDKAGNGIRAGLALIKMFRHHIWQSISEGFMWYFQISFKNNSGSTEKAEHYRNLINAAWESKKHDFAIDAGAHIVHSIGNNDEQ",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_16_esm_if_007",
+          "sequence": "SQTFDSSYYLAFYHSDENNWLRGLHLSIWYARLYHRHLLRFVMNAMMYALTYGMTDKNIHQRSVKNIQSMADFAMQTSHRRSSGNSAAEWYDHAADQRTT",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_16_esm_if_008",
+          "sequence": "REEWYKNWWILFANQHTHKAMEGFKSWVAIYKWFDNQGANAIVEWWMLVLQSLWDTKHWDNHTMEQWHEAMDSAGHTDSNNGGAQLVAELIHRAAHHQQD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_16_esm_if_009",
+          "sequence": "SSHHIKHWYYWLSDKQHKTWSSYMNGMMSMLSMLSQSASDMFADFFASAMQIGFRDSQWHTKKFRKYQSWAQYMLEERKDEFFLTSAVTWAQQWSQHEHK",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_16_esm_if_010",
+          "sequence": "KRSGWSRFGWSYWKKQHKHGIKVAEAYFWGLQVVQENWVTMWAHWVWIFITMYVNQKTAQDQQFKKASQVIRFVFHDESKRFGLEWYLDVFRNGIKHQDD",
+          "length": 100,
+          "method": "esm_if"
+        }
+      ]
+    },
+    "protein_backbone_17": {
+      "backbone_file": "protein_backbone_17.pdb",
+      "backbone_id": "protein_backbone_17",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_17_esm_if_001",
+          "sequence": "TQDRVKYGLYSSDFMVDLWKTVWTFARESSNHMELFLHKAYTMATEGFTQYDNSMTDMIRRGQRIGTGMDHAVKTKVGEEAAHEVADDSLSVLNSSFKHK",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_17_esm_if_002",
+          "sequence": "ESTRSSMILVAMNGILNMWKKAWEASSNSFKEGDFAWSQLGSYSRRWADQYQNKLDQYAQHVKRMWQAMRTYASDTMIREAMHKYVKRAFDFLHDAKETE",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_17_esm_if_003",
+          "sequence": "EQTEKQAFMSAVDYGMDMMHRFWTAVKRQAKNAESYSNSMFEMLNTLLETAKNKYDRWYNRIETASSGMRRAASKNGVHHLWSKLAEKLFELIKHDRKQQ",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_17_esm_if_004",
+          "sequence": "HQDSERMFGAIWHAVARLATHFAKYFTHEATHAKGAANHVASSLNHAGHSAESHVERIMDRGQNVVKGGDNVGKRDGVHNVVHHMYSDFGQWSDQWWDTS",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_17_esm_if_005",
+          "sequence": "EREKSQLALAAVHLLLNYVEEYANFAETTASDWSIWASHVASSYHSLVSQFNHRWHQFYQTANRGARLFRNMAKNQMWRDGMHHVYRTVGRFWDKVETKS",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_17_esm_if_006",
+          "sequence": "NHDEAQAVAVVIDLSLTVFENGIRAGNSNIKQFRGGYHTWMEGFQRYFQTSKKNLSSIAKSAHHSGRLLNEAWESKFYDKAIDEGAHTVYSIGNNVAERD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_17_esm_if_007",
+          "sequence": "KQTKKSAYYLAYHAVSELLRNSWNYLTRHARNYHWSYNNWFDMLSQMYSNIHQTVKNISHQSRSVFNIGQSMADKSMMTSYWRNSAEEWYDYASQEWTHR",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_17_esm_if_008",
+          "sequence": "REERYKLWWILFSLMSHIYKEMAKFSRDEIHKWKSVLQSLADAWRQLVNQSNRDIKHWVNHSTQAMRGYEEGVSHTVANNGGSQLVSELIHWASQMRRSH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_17_esm_if_009",
+          "sequence": "KSHEIKYWYYWLDFMSHFIRSYMNGMQQNAQNSSMAADQAVKFASQSMTKWDSQWHTFFKRFHQAWEMYNEAWKDEFFNTSADTWAQQWSQYAHSALRHT",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_17_esm_if_010",
+          "sequence": "KRSKWSWFGWSWKFMYKSYTKVAEAYKRNMDDMELWVTQWAHWVRTFITQYDNQFTEMVQQFKKAAQVGRKFYDESFWKNAWHNVVKRLGTFMHNRYSES",
+          "length": 100,
+          "method": "esm_if"
+        }
+      ]
+    },
+    "protein_backbone_18": {
+      "backbone_file": "protein_backbone_18.pdb",
+      "backbone_id": "protein_backbone_18",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_18_esm_if_001",
+          "sequence": "TQDRDKYGNHSSDFMDDLRKTVRTKSRASNHMANKLYKAYIMAIEGFIQHVNAMIDMIRRGMRTGTGMVHAVKTKDEAAEHAVSVVNSVLNSLFHGAHHQ",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_18_esm_if_002",
+          "sequence": "ESTRRSMINDAMNGINNMRKKARESSNAKKEGVKEWAQLGGAYSRWWADQYQLYSKLVQHAMHDFRMWMEMWTHSSDIMTRAAQYIKHVGKRAFDFKNKT",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_18_esm_if_003",
+          "sequence": "EQTEHQAFQEVVHGMDQMHRKWTEDKRMSKNAAHNAMKAMLLILNGAIEKLKYVWRYLRTAGTESSGMWRAASKNDHYLRSFLEAFNKALTKYGQMKNDN",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_18_esm_if_004",
+          "sequence": "HQDSERMFETWGHAVERLETHFEKHKTYEETSYSKGASGLYVAANGLYSHAEAAYDAWTQVWQNVDFGGDSLDKRDDYLDDYYQYADKGMRDMWRVDTSH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_18_esm_if_005",
+          "sequence": "EREKRQLANEAVHLLNNYDEEYSNKEEITESVWSTWASYVAASYHALVSQFNYWWHMFHQIANRGSWLFRLMEKNQQWWDQGYHVVHRGIDRVFRVGKDR",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_18_esm_if_006",
+          "sequence": "NHDEEQAVSDVIDLSNTVKENGTRSNSLTKQFWHHIWQSGSAGFQWYFQTSKFFLNAGSTAFSEGHYSGRLLNEEREAFKHVFEIVEEGYTDYATKGNNN",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_18_esm_if_007",
+          "sequence": "KQTKHSAYHNAYHAVENLRNRGNHNTRYSRNYYRHLLRFVMLAMQYALTHGQGFIDFLTHMSRSVKLIGQAMSDKSQMISHWWNSAEEWYDHAAQEWTHR",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_18_esm_if_008",
+          "sequence": "REERHKLWRTLFSLMHTYKEQAKKRDEIHKRFSDNMGSLAGVAWRMLVNQSNWYVTFYRDLSHTMEMWGHAADSHTDALNSGMNVVSELIHRAAQMRRST",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_18_esm_if_009",
+          "sequence": "KSHETKYWHHWLDFMHKIRSHMNQQQNAQNSMASDMADFFASAMQIGFRDAQWFYTFFKRFYQSWEMYLEAWKDEKKLSTEVGTWAQQWSQHAYSALRHR",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_18_esm_if_010",
+          "sequence": "KRSKRSWFRRFFQYSKHGTKDAEEHKRGNQDVMENWVTMWAGYWDWIFTTMHVLMKGIEQVMQKFKAAMDGWKKHDEAFRKGLEWVHNVVKRLGTFKQDD",
+          "length": 100,
+          "method": "esm_if"
+        }
+      ]
+    },
+    "protein_backbone_19": {
+      "backbone_file": "protein_backbone_19.pdb",
+      "backbone_id": "protein_backbone_19",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_19_esm_if_001",
+          "sequence": "TQDRDKYGNHSSDFMDVLWFIVRTFSGRAASNYMANFLYFAYIQETGEKIMHDLAQTVQTRWQRIGTQDYEDFTKVGEESEHAVSDDSNSVLNSSKKHKQ",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_19_esm_if_002",
+          "sequence": "ESTRRSMINDAMNGINLMWFFAREASGNAFFEGVFEWAMLGGAHRRWEDMYQNSFNDMHEQYDKWMRQEMRTYSSVIQTRESMYKHDGKRAFDKLKHDEH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_19_esm_if_003",
+          "sequence": "EQTEHQAFQEVVHGMDMMYWFWTEVKWQALFNAASHSLAMFAMNNTLNEIAKNSFHDWRHNWTEGIESQWRSASKLGDHHNRAFNEEFNKALTKYDKQQH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_19_esm_if_004",
+          "sequence": "HQDSERMFETWGHAVEWLAIYFEKYKGTYFSEAISHAFGAAGLHDSANNYAHSAASHVERTMDRGMNDDFDNVKRVGDHNDDYYQHSVKQWSDQWRDTSH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_19_esm_if_005",
+          "sequence": "EREKRQLANEAVHLLNLYVAAYSNFEATIAADWAIRAAYVAASHHSLDSSMKNYWRHMKHQISNWGSRNFRNMEKLMQRRDQGYHDHWTDGWKRVKKDTE",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_19_esm_if_006",
+          "sequence": "NHDEEQAVSDVIDLSNIVFAGLTRANANIFMKWGGHYIWMSGSEKQWHKSMTKFLNSGSTEFSEGSHHRLNNAERAAKKHDKAIDEEGHTVYSTGNNDEQ",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_19_esm_if_007",
+          "sequence": "KQTKHSAYHNAYHAVELLWLSWNHLTWHAWLHYWSHLLWFVMLSQQYSNIYQTVFNTSHQRADKLIQSQADKAQQISSHRRNSAEERYDHAAQRIHRNTD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_19_esm_if_008",
+          "sequence": "REERHKLWRTLFSLMHIYFAMAKKSRVEIWYKWFSDLMGALAGDERWQNVLQNWVTKYRDNSHTMAQRHAEDSSHIVSNNSQLVSENIHRAAQQWSHTNK",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_19_esm_if_009",
+          "sequence": "KSHETKYWHHWLDFMHFIWSGAHQLQMQLFAQLSAQAASVMAVKKSSSQSMTKWVSQWHTKFKRFYQSRAQHLEEWSKDEKKLSTEDGTRAMQRSQHEHK",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_19_esm_if_010",
+          "sequence": "KRSKRSWFRRFFQYSKSYGIFVSEAHFRGLMDVMANWVIMWAGHRDWTKIIQHVLQKGTEQVQQFFKSSMDRFKHVSESKRKGLERHLDDFWNTFHQDDT",
+          "length": 100,
+          "method": "esm_if"
+        }
+      ]
+    },
+    "protein_backbone_2": {
+      "backbone_file": "protein_backbone_2.pdb",
+      "backbone_id": "protein_backbone_2",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_2_esm_if_001",
+          "sequence": "TDDRVKHGLYSSDKQVVLWFIVMWWTKSGWESSNHQVENFLHKAYIMEIEGFTQHVYLWAMIVMTWWRGMRIIIQVYADKIKNEEAAYEVAVDSLSDNNK",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_2_esm_if_002",
+          "sequence": "EKTRSSQILVAMNTNLMWFFAWFAASNSFFEDFERSMNSYSRRWASSDMHMLKNDMMYAMYWFVKWMRMAQWMSTYAADTMTSESMYGKYVGKWAKDDKH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_2_esm_if_003",
+          "sequence": "EDTEKQSFMSAVDHQVMMYWWFWIIEDKWMSKGNEELHNAMKEMLLINLEIAKNKYVWFWWMYLRIATASSGMWRAASSKLDTHNWAFNAAFNFANTKRR",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_2_esm_if_004",
+          "sequence": "HDDSERQFGAIWHEDAWFLFAIYFAKHKGIHEATHSFESGLHDAASLNYSGYSEEAMYFVVAWIQVWQLVDFIGDSLVKRVDTNDVYYQYAVKGMERRDD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_2_esm_if_005",
+          "sequence": "ESEKSQNALAAVHNNLLYVAAYFALKEEIIESVRSTWSSYVESSYYANVSSMKNHWWVYMFVYMTALRGARLFWNMAFNQMRSDQGYYDYWGTVGRKRDK",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_2_esm_if_006",
+          "sequence": "NTDEAQSVAVVIDNNIVMFAGLIIWSNSLIKQFRHHVTRMSEKMWYFQIKFLNSSIAFVAVAISHYSRLLNAAWEAFFHDFERDEGAGHIVYSIGNNDEQ",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_2_esm_if_007",
+          "sequence": "KDTKKSSYYLAYHSDSAVYLLWLLWNHNSIRHARNHYRHLLRKVMLAQMHALTHQGFIVFWLISHMSRAVKLFIQAMADKAQDTSYWWNSAAEWYDHSSD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_2_esm_if_008",
+          "sequence": "REERYKNWWILFSNQSYMIYFAMAGKKRVATHFRKDLQSLADEWWMLDLQSLRDTFYWVLLYLSTMAQWGHAAGDSAGHTVSHNSGMLDAALTSYRESHH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_2_esm_if_009",
+          "sequence": "KKHEIKHWYYWLDKQSLYFMIWLIAHQNGMQQLSQNLSQAADQAVFFSSSMSQTKWVAMVWWFYTFFKWFHMAWEMYLEEWKNEKFLSTSAVTWAQQRRD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_2_esm_if_010",
+          "sequence": "KSSKWSRFGWSWKKQYFLFLYGIWFDSEAYKRGNQDVQELWDTMWAGHWDWIKTTMYMVLMWFGTAMDMMKFWSKAAMDRFKTDEAFWKGLARYLDDKDS",
+          "length": 100,
+          "method": "esm_if"
+        }
+      ]
+    },
+    "protein_backbone_3": {
+      "backbone_file": "protein_backbone_3.pdb",
+      "backbone_id": "protein_backbone_3",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_3_esm_if_001",
+          "sequence": "HMRDHVFFYNHDFMDVLWKIVRTFARESNTMALFLYFAHTMEIIAKIMHDNAQTVMTRRGMWIIIIWMVHEDKTKDGAAAEYEDADDSLSDLLSKKHKEH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_3_esm_if_002",
+          "sequence": "KAEIWLAMINDSMLTLMLQWFKSWASSNSEFAGVFAWAQNGSYLSRWWEDQYQNSFNDQYAMYWVFWMWQEQRTHSAVIMTWESMHKYVKRAFDKHNKHN",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_3_esm_if_003",
+          "sequence": "KMIHDMAFMEDDYGQVMMHWFRTAVKRQSEGLAASYSLSQFEMLLTLLETEGKNSFHDRWYLWIAIWIASQRRSESFLGVHYNRAKNAAKNFANTKRRKT",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_3_esm_if_004",
+          "sequence": "HDMRAVWWMKETYWHAVARLATHFAKHKTTSAAISYAFESGNYVASSLNHSGHSAASHDAWMIWMVFWGQNDDKDNVGFWDGDHLDDYYQHAVKQERRDD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_3_esm_if_005",
+          "sequence": "EWAFHMLMANESVVHLMLNLYDEAYSNKEQIIAAVWAIRSAHVYASSYHSNVSQFLHRRYMFYMIALWGSRNKRNQAFLMQWRDGQHYVHRGIDRKRDKE",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_3_esm_if_006",
+          "sequence": "DYVAKMAVADDTVLNIVFEGLTRAGNSNTEMFWGGYYIRQSEGWFQWYKQTSKKLLSSTAFVAVAILYYRNNNEERAAFFHVKEIDEGAHTVYSTHKNNN",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_3_esm_if_007",
+          "sequence": "SMIFDAAYYNSHYADSALNWLRNYLTRHSSLYYWSYLLRKVQLAMQYANTHGQTVFNTHMSWAVFVLIGQSQSDKSMMISSYRRSNSASERYVHSSDQRR",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_3_esm_if_008",
+          "sequence": "RHAWYFLFWRTNFANMLYTYFEQAGKKRDQIYFWFSVLQSLSGFVEWWQNDLQNWVTKHWVLSYSLFSIQEQRHEEGVSAHIDSLNSGMNDAANTDRHRQ",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_3_esm_if_009",
+          "sequence": "SAKHIYFYWHHRLSDFYMHFIRSYMNQQQHAMLSAMAADQADFFASMSQTKWDSMWHTKFFFWYFYMMAREQHNEEWSFVEFKNSTEVGTRAMQRRQHET",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_3_esm_if_010",
+          "sequence": "KWAGWAWYFRRKFMHSFSHGIKDAAEHKRHMVVMALWVTQWEGYWDWIKTTMHDLMKTEMVMMWFFWSFSSQDRKKYVSGEAKRFNEWYNDVFRNKTKHD",
+          "length": 100,
+          "method": "esm_if"
+        }
+      ]
+    },
+    "protein_backbone_4": {
+      "backbone_file": "protein_backbone_4.pdb",
+      "backbone_id": "protein_backbone_4",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_4_esm_if_001",
+          "sequence": "HQDRVKYGNHSSDKMVDLWKTVRTFSGWESSSGNYMANFNYFAHTQETEETMYVLAMIVMIRSQRTGIGMVHAVFTFDGAASAYADAVVNAVNLASKKHK",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_4_esm_if_002",
+          "sequence": "KSTRSSMINDAMNTLLQWFKSWESSSGLSKFAGDFAWSMNGGAHRRREDDHMLSFLVMYAMHNKRQWMAMWTYAADIQIWASMYGKYVGKWAKVFKNKHN",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_4_esm_if_003",
+          "sequence": "KQTEKQAFQEVVHQVMQYWKRGTEVKWMSKGLAESYSNAQFAMNNTNNEREGFLSFYVWWYNSTETASAGMRGWAESSFYLDYYLRAFLEAFNFALTKRR",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_4_esm_if_004",
+          "sequence": "HQDSERMFETWGHEVARLATHFEKYKGWTHSAATSYAKGEAGLHDSSNNTSGYAAAAYVAWTDDRQLVVFGDSLVKWDGVYNVVYHMYADFGQWSVQRRN",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_4_esm_if_005",
+          "sequence": "EREKSQLANEAVHNLLNYVEEYSNFEAFTTAAVRAIWSAHVAAHHSNDSDKLYWWYMFYMISHRSRLFWLMEFLMQWRVFGQGYYDYWGTVGRFWVKKDR",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_4_esm_if_006",
+          "sequence": "DHDEAQAVSDVIDNSLTVFENGTRANALTKMFWHYIWQSEGFMRHKQTKENLAGSAIAFAAHTRNNGLAAWEAFFHVKAWIDAGAHIVYSIGNLVAERDQ",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_4_esm_if_007",
+          "sequence": "SQTKKSAYHNAYHSVSELLRNSRNYNSFTRYAWNYYWHLNWFVQNSQQHKNIYGMGIVFLIHDRSDFLIGMSMAVKAQMISSYWWNSAAEWYDYAADQRR",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_4_esm_if_008",
+          "sequence": "REERYKLWRTLFSNMSHIYKEMEKFRVATHFWFDLMGSLSGVARRQNDNDNWVIFYWVLSYTDEQRGYAAGDSAGHIDAWLNGGAQLVAELIHWAAHHQD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_4_esm_if_009",
+          "sequence": "SSHEIKYWHHWLDKMSHFIRSYQNGQMLQNAMLSMAADMEVFFSSQQTKSDAMWYIFFFWFHDSREMYLSAEWSFDAKFLSTSAVTWAMQWSQYAEHSEH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_4_esm_if_010",
+          "sequence": "KRSKWSWFRRFFQHSFHGIKDAEEYKWINQVVMELWVTMRAGYRDRTKTRQYVLMFGIAMVQDKKKAAMVGRFFYDSEAFWKGLARYLVDFWNGIFHQDD",
+          "length": 100,
+          "method": "esm_if"
+        }
+      ]
+    },
+    "protein_backbone_5": {
+      "backbone_file": "protein_backbone_5.pdb",
+      "backbone_id": "protein_backbone_5",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_5_esm_if_001",
+          "sequence": "TQDRDKHNYDKMVDNWFTVWTKARESNHQELFLYFAYIQAIEKIQHVNSQTDMIWWGQWIGTGQDHEVFIFVIAAFAAYAVSDDSNSVLNALFHGAHHED",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_5_esm_if_002",
+          "sequence": "ESTRRSQTLDSMLTNLMRFFSRASSNSKKEGVFAWAMLSYSRRWEDMHQNKNVMYAMHVFWQWQEQRSIYAAFVIMIWAAMHKHVKRAFDFMLHVAHETE",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_5_esm_if_003",
+          "sequence": "EQTEHQSKMEDVYQDMMHWFRTADKRQSKNAASYSLAMKAMNNINNGETEKNSFYVWRYLWTATESQWGWAALAFYLGVYYNRSFNEAFNFALTGSRKHD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_5_esm_if_004",
+          "sequence": "HQDSERQKGETWGHEVARLATHFEKHKTHEAISYAFGASGLHDASNGNHSHSAAAYVEWIMDWQNDDFGGGGFVSLVGFWVDHNVDHYWQYAVKGMERRD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_5_esm_if_005",
+          "sequence": "EREKRQNSLESVYNNLLHVAEHANKEETTEAVWAIWAAHVASHYSNVSQKNHWWYMFHMIANWSRNKWLMAFFLMVMWWVGQHHVHRGWTVFGRFWDKKD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_5_esm_if_006",
+          "sequence": "NHDEEQSDADDIVNNIVKAGNTWSNSNTKQFWGGYYIWQSGEKMRHFQTKKNLAGSATAFAEGHHRNLGLAAFWAAFFYVFETDAEHIVHAYINLVEERD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_5_esm_if_007",
+          "sequence": "KQTKHSSHYNSYYSDSANLWNRGNHNTRHSWLYYWSYLNWFDQLSQMHSNTHGMGIVKLISHMRSDKLIGMAMAVFAMMISSHRWNSAMEWYVHAADQRT",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_5_esm_if_008",
+          "sequence": "REERHKNRWTNFANQSYTYFEQAKKRDETHFWFSVLMGSLADEWRQLDNQNRVIFYWDLSYTMEQRHAAGVSAGGYIVAWLNSQLDSAWNIFSHWASHHQ",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_5_esm_if_009",
+          "sequence": "KSHETKHRYHRLSDKMSHFIRSYQNQQQNSMLSAMAASDMADKFSSMQTKRDAMWYIKFFWKYQSREMYLSAFAWLFVAVFKNTSEDGIRAMMRSMHEHS",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_5_esm_if_010",
+          "sequence": "KRSKRSRKGRRFFQHSFHGIKDAEEHKRNQVVMALWVIQWAHRVRTFTTQHDLMFGIEMVMQFKKSSMVGWFVFYYVSGFASKRFNEWVHLVVKWLKTKH",
+          "length": 100,
+          "method": "esm_if"
+        }
+      ]
+    },
+    "protein_backbone_6": {
+      "backbone_file": "protein_backbone_6.pdb",
+      "backbone_id": "protein_backbone_6",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_6_esm_if_001",
+          "sequence": "TQDRDKHNHDKQDDNWKTDWTKSRASNHMENKNHKEHTQAIEKTQMHDLSQTDQTRRQRIGIGMVYMADKIYFVGAAAAYEDSDNSLAVLLASFGYGAKH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_6_esm_if_002",
+          "sequence": "ESTRRSQTNDSQNTNLQRKFSRESSSNSFKEDKERSQNSYSRRRELDQYQNKNDQHEQHVFWMWMAMWTHAAVIMIWAAMHKHDEWAFVFLGYVAKAIAK",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_6_esm_if_003",
+          "sequence": "EQTEHQSKQEDDHQDMQHRFRTEDFRQSSKNEEHNSQKEMLNTNNIETAKNKHDRRHNRIAGIASAIMRRAASAFLGVYYNRSKHAAFLFALIGSSFYDD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_6_esm_if_004",
+          "sequence": "HQDSERQKETRHEDEWNETYKEKHFTHEATHSKESNHDSASNNHSIHSAESHDERTQDRGMLVVFGIGDNVIFWVGVYLVDHHQTAVFGMWSVMWWVDIS",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_6_esm_if_005",
+          "sequence": "EREKRQNSNESDHNNLNHDAEHSNFEETIESDRSTRSSHVASHHSLDSSQKNHRRHQKHMIALWGAWLKRLFMAFLMMWWDQHHNYWGIVGWFWVGFVET",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_6_esm_if_006",
+          "sequence": "NHDEEQSDSDDTDNNIDKEGNTRSGNSNIKQKRHHTRQEGFQRHKFQTSKKNNSSTEKSAGSYYSGWLNNAAWAAFFYVFETDEQGYIVYAIGLLVAASD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_6_esm_if_007",
+          "sequence": "KQTKHSSHHNSHHSDSENNWNRNHLTRHARNHHRHNNRKVMNSQQMHSLTHQTDKNTHQSWAVFLIIMSQAWVFAMMISAHRRNKASAWYVYAAMEWIYR",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_6_esm_if_008",
+          "sequence": "REERHKNRRTNKSNQSHTHFEQEKFRDEIHKRKDNQSNSGVERRQLDNMNRDTKHRDNHSSSIMAMWGHEAMGVSAGGYIDSNNKGMLVAALISYWAAKH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_6_esm_if_009",
+          "sequence": "KSHETKHRHHRNDKQSHKTWSHQNGQQQLSQNSQSSDQEVFKSSQLQTGKRDSQRHTKKFWFYMAWAMHNSAAWSFVAFFNTEDRWAMMWSMYAYAALSH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_6_esm_if_010",
+          "sequence": "KRSKRSRKRRKKQHKSHTKVSEEHFRNQVDQENRDTQREGYRDRTFTTMHDNQKTEQDQMFFSFAAMVRKFWYVSGAAFWKNERTLVVFWLGIFMRREEH",
+          "length": 100,
+          "method": "esm_if"
+        }
+      ]
+    },
+    "protein_backbone_7": {
+      "backbone_file": "protein_backbone_7.pdb",
+      "backbone_id": "protein_backbone_7",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_7_esm_if_001",
+          "sequence": "TQDRVKHGLHDFMDVLRFIVRIFSGWESNYQELFNHFAHIMETGAGKIMHDNAQTVMIRWGQWITQVHEVKTKDGAEAAYEVAVDSLSDLLSSFHKAHHQ",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_7_esm_if_002",
+          "sequence": "ESTRSSQILDSMLTLLQWFFSWASSFSNSFKEGVKEWAQLGSHSLWRWADQHMNKLVMHAMHVFRQWQEMRTHSAVTMIWEAMYKYVKRAFDFLHDAHER",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_7_esm_if_003",
+          "sequence": "EQTEKQSFMEDVYQVMQYWWKWGTAVKRQAKNAAHNAMKAMNNIVLNGATEKLKHVWWHLWTAGTESSQWRSESFLDYYLRAFLEAFNKALTGSKHDDKD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_7_esm_if_004",
+          "sequence": "HQDSERQFGETWGHAVEWFLEIYKAYKHKGTHSAETSYSFGESGVLHVASNNYSHAAASYVEWIQDWQNVDKDNVGKWVGDYLVDYYQHAVKGMRRVQRS",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_7_esm_if_005",
+          "sequence": "EREKSQNALESVYNLLNYVAEYANFAETTASDWATRAAHVASHYVANVSSQKLHRWVYQFYQIANRGSRLKRNQAFNMMWRVFGQGYHDYWTVGRKWDKE",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_7_esm_if_006",
+          "sequence": "NHDEAQSVADDIVNSLTVMFEGLTWANSNIKQFWHHIWQSGEKMWYKSMTKKLNSGVSSIAKAAHHSRNLNEERAAKFYVKAWIDAGEHIVHAINNVEER",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_7_esm_if_007",
+          "sequence": "KQTKKSSYYNSYYSVSELLWNSWNYMNTRYSRLYHRSYNLWKDMLAQMYSNTYQTVFLTSYQSWSDFNTGQSQSVFSMMISYWWNSAEEWYDYASDMRTT",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_7_esm_if_008",
+          "sequence": "REERYKNWWTNFANMSHIYFEMAKFFRDEIHKWFDNMGSLADEWWMNVLQNRVTKYWVNSYTMAQRGHEADSHTVANLGGSGMLDAANTSYRAAQQRRST",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_7_esm_if_009",
+          "sequence": "KSHEIKHWYHRLSDFMHFMIRSGSYMNQQSQNAMNSMASSVQEVFFSSAQQTGKRVAMRYIKFFRKYQSWEQHNSAEWSFDAVFKLSTEVGTWAQQWRQT",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_7_esm_if_010",
+          "sequence": "KRSKWSRFGRRFFQYSKSYGTFVSAAHKRGNQVVQELWDIMREGYWDWIKTTMHDLMFTAMDMMKKSKSAQDRKFYDSGASFWFNAWHNVVKWLTKKQDD",
+          "length": 100,
+          "method": "esm_if"
+        }
+      ]
+    },
+    "protein_backbone_8": {
+      "backbone_file": "protein_backbone_8.pdb",
+      "backbone_id": "protein_backbone_8",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_8_esm_if_001",
+          "sequence": "HQDDRDFYNYSDFMVDLWKTDRTFSRAASSGLYMALFLYFEHTQETEKTQYDNSQTDMIWWGQRTGMTQVYEDFTKVEESAHAVADVSLSDLNSSFKHKQ",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_8_esm_if_002",
+          "sequence": "KSTWRSMINVAQLGINLMRKKSRASSGLAFFAGVFVAWAMNSHRRREDQHMNKNDQHAMYVFRQRMAQRSIHSADTMTREAQYGFHVGFREFDKLGHDEH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_8_esm_if_003",
+          "sequence": "KQTHHQAFQSADVYGQVMQHRKRGTEVFWMASFGLAASYSNSQKEQNNTNLETEKNKYVWWYNRTAITESAQRGRSASKNGDYYLRAFLEEFNKALTKRR",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_8_esm_if_004",
+          "sequence": "HQDAERMFEIWHAVARLATHKEKYKTYSAAISYAFIAAILHDSSNNHSHSAESHDERIMVWGQNDVFDNVGKRVDHLDDHYQYAVKGMWDQWRDIANHHR",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_8_esm_if_005",
+          "sequence": "EREFRQLANAADYLLNLYDEEHSLKEAIIAAVWAIWAAYVESHHSNDSQKLHRRHQKYMIALRSRLFRNMAKNMQRWDQHYDYWGTVGWKRVKDIEKSNS",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_8_esm_if_006",
+          "sequence": "DHDAEQAVSVVTVLSNIVKENTRANSLIFMFWGGYYIWMSEKQRHKQTKKLNSSTEKAAGSYHRNLINEAWESFKHVKETVEGAGHIVYSTGNNVAERDQ",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_8_esm_if_007",
+          "sequence": "SQTFHSAYHLAHYAVELLRNRNHLTRYAWLYYWSYLLWFVQNSQQHSNTHGQTDKNTSYMSWSDKLFTQAMSDFSQMTSHWRSSGNSAAERYDHAADQRR",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_8_esm_if_008",
+          "sequence": "REEWHKLWRILKALMHIYKEQEKFRDAIYFWFSVLMGALADERRQNDNQNWDTKHRDLSYSSTQEMWHEAGDSGHTVSNNGSGMLDAALTHWESMMDRST",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_8_esm_if_009",
+          "sequence": "SSHHTKYWHYWNSVFQSSHKTRSYQNGMMSMLAMLLAMAADQEDKKSSQQIKRDSQRYIFFFRKHMAREMYNEARKVEKKLTSAVTWAMQRSQHAEHSEH",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_8_esm_if_010",
+          "sequence": "KRSGRSWFRSWKFMYKSYTKDSEAHKWGLMVVMALWVIMWEHRDRTKTTQYDNQKTEMVMMFKKSAMDRFFHDSESFRKNARYLVDFWLTKMHNYESESK",
+          "length": 100,
+          "method": "esm_if"
+        }
+      ]
+    },
+    "protein_backbone_9": {
+      "backbone_file": "protein_backbone_9.pdb",
+      "backbone_id": "protein_backbone_9",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_9_esm_if_001",
+          "sequence": "TQDRDFYNYSSDFMVDLWFTDRIKSRASNYMALFLHKAYIMAIEGFIMYDNAMTDQTWWQRIGTGMVYAVKTFVGEESAHENSVDNAVNLAKHEHEDHTK",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_9_esm_if_002",
+          "sequence": "ESTRRAMTLVAQLMGTLLMRKKARESSSNAFFAGVKEWAMLGGSYSSWWRESSDQHQLSKNVMHAMYVFWQRMAMRTHASDRQIREAMHGFHDKREKDDE",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_9_esm_if_003",
+          "sequence": "EQTEHMAKMSADVYGQVMMHRKWTEDFRQASFGLAEHSLAMFAQLLILLETAGKNKHVWRHLWTAGIASAQRGWAESKLDHTNWSKLAEFLKENTKRRKT",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_9_esm_if_004",
+          "sequence": "HQDSEWMKGAIRGYADAWLETHFEKHFTHSAAISYSKGAVAGLHVAASLNHAGHSEEAYDEWIQVWGMLVDKGGGDNDGKRNDYNDVYHMYSDKQERRDD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_9_esm_if_005",
+          "sequence": "EREKRMLSLAADYLLNLYVEEHANKEATTAAVWAIRSAYVAASHYALVSSQFLHRRHMFHQIANWGAWLFRNMAFNQQWRDDHYDHWGTVGRKRDKKDTE",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_9_esm_if_006",
+          "sequence": "NHDEEMADAVVTVLSNIVFENTWSNSLTKMFWGGYHTWMWSGSEGFMWYKQISKKNNAGSTAFSAGSYYSRNLGLEERASKEHVKEWIDAGEHTDHSTHK",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_9_esm_if_007",
+          "sequence": "KQTKHAAHYLAHYVADSALNRNSRNHLTRYAWLYYRHLLFWFVQLAMMYSNIYQTDKLIHQSWSVFLIGMSQAVFSQQISHSRSNSASEWYDHSSDQRTT",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_9_esm_if_008",
+          "sequence": "REERHFLRWILKALMHIYFEQEGKKRVETYFWFSVNQGALAGVEWWMLVNQSLRDTKYWDNSYTMAMWGYEEGVSSHTVSNHSGQNMVSALTHRESHHQD",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_9_esm_if_009",
+          "sequence": "KSHETFYRYYWNSVFQSSYKTRSSHQLQQSMLAMLSQAAMSVMEVFFASSQSMTKRDAMRHIFKFWFYMAREMYLEERSKDQKFNTLADGIREQQRRQHQ",
+          "length": 100,
+          "method": "esm_if"
+        },
+        {
+          "sequence_id": "protein_backbone_9_esm_if_010",
+          "sequence": "KRSKRAWKGWSRFFMHSFSHTKVSEEYKRGLMVVMENWVIMWAHWVWIFTTMYDNQKGIEQVMQFFSFAAQDGWFKHDSESERFNEVWHLVDKRNKTKHD",
+          "length": 100,
+          "method": "esm_if"
+        }
+      ]
+    }
+  }
+}

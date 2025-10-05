@@ -1,0 +1,274 @@
+======================================================================
+BLAST 搜索详细结果
+作者: Kuroneko
+日期: 2025.10.04
+生成时间: 2025-10-04 07:17:22
+======================================================================
+
+查询序列: sp|P69905|HBA_HUMAN
+----------------------------------------------------------------------
+数据库: nr
+查询长度: 142
+找到 10 个比对
+
+  [1] hemoglobin alpha 2, partial [synthetic construct]
+      ID: gb|AAX29522.1|
+      长度: 143
+      E-value: 2.67e-97
+      Score: 734.0 bits (287.345)
+      Identities: 142/142 (100.0%)
+      Gaps: 0/142
+
+  [2] hemoglobin subunit alpha [Homo sapiens] >ref|NP_000549.1| hemoglobin subunit alpha [Homo sapiens] >ref|NP_001036091.1| hemoglobin subunit alpha [Pan troglodytes] >ref|NP_001036092.1| hemoglobin subunit alpha [Pan troglodytes] >ref|NP_001125901.1| hemoglobin subunit alpha [Pongo abelii] >ref|XP_003809438.1| hemoglobin subunit alpha [Pan paniscus] >ref|XP_003809441.3| hemoglobin subunit alpha [Pan paniscus] >ref|XP_054934595.1| hemoglobin subunit alpha [Pan troglodytes] >sp|P69905.2| RecName: Full=Hemoglobin subunit alpha; AltName: Full=Alpha-globin; AltName: Full=Hemoglobin alpha chain; Contains: RecName: Full=Hemopressin [Homo sapiens] >sp|P69906.2| RecName: Full=Hemoglobin subunit alpha; AltName: Full=Alpha-globin; AltName: Full=Hemoglobin alpha chain; Contains: RecName: Full=Hemopressin [Pan paniscus] >sp|P69907.2| RecName: Full=Hemoglobin subunit alpha; AltName: Full=Alpha-globin; AltName: Full=Hemoglobin alpha chain; Contains: RecName: Full=Hemopressin [Pan troglodytes] >pdb|1BZ1|A Chain A, PROTEIN (HEMOGLOBIN ALPHA CHAIN) [Homo sapiens] >pdb|1BZ1|C Chain C, PROTEIN (HEMOGLOBIN ALPHA CHAIN) [Homo sapiens] >pdb|1Y01|B Chain B, Hemoglobin alpha chain [Homo sapiens] >pdb|1Z8U|B Chain B, Hemoglobin alpha chain [Homo sapiens] >pdb|1Z8U|D Chain D, Hemoglobin alpha chain [Homo sapiens] >pdb|6KYE|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|6KYE|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|6KYE|E Chain E, Hemoglobin subunit alpha [Homo sapiens] >pdb|6KYE|G Chain G, Hemoglobin subunit alpha [Homo sapiens] >pdb|6KYE|I Chain I, Hemoglobin subunit alpha [Homo sapiens] >pdb|6KYE|K Chain K, Hemoglobin subunit alpha [Homo sapiens] >pdb|7CUE|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|7CUE|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|7K4M|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|7K4M|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|7K4M|E Chain E, Hemoglobin subunit alpha [Homo sapiens] >pdb|7K4M|G Chain G, Hemoglobin subunit alpha [Homo sapiens] >pdb|7K4M|I Chain I, Hemoglobin subunit alpha [Homo sapiens] >pdb|7UD7|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|7UD7|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|7UD8|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|7UD8|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|7UF6|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|7UF6|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|7UF7|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|7UF7|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|7VDE|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|7VDE|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|7XGY|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|7XGY|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|8EGI|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|8EGI|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|8VYL|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|8VYL|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|8WJ0|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|8WJ1|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|8WJ2|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|8XMP|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|8XMQ|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|8XMW|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|9FHB|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|9FMU|A Chain A, Hemopressin [Homo sapiens] >pdb|9FNO|A Chain A, Hemopressin [Homo sapiens] >pdb|9HEJ|D Chain D, Hemoglobin subunit alpha [Homo sapiens] >pdb|9HEK|D Chain D, Hemoglobin subunit alpha [Homo sapiens] >pdb|9NB6|D Chain D, Hemoglobin subunit alpha [Homo sapiens] >pdb|9NB8|D Chain D, Hemoglobin subunit alpha [Homo sapiens] >pdb|9VIB|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|9VIC|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >gb|AAX36652.1| hemoglobin alpha 2 [synthetic construct] >gb|AAB59407.1| hemoglobin alpha 2 [Homo sapiens] >gb|AAB59408.1| hemoglobin alpha 1 [Homo sapiens] >gb|AAC72839.1| alpha-2 globin [Homo sapiens] >gb|AAC97373.1| alpha one globin [Homo sapiens]
+      ID: ref|NP_000508.1|
+      长度: 142
+      E-value: 3.92e-97
+      Score: 733.0 bits (286.96)
+      Identities: 142/142 (100.0%)
+      Gaps: 0/142
+
+  [3] Chain B, Hemoglobin subunit alpha [Homo sapiens] >pdb|3IA3|D Chain D, Hemoglobin subunit alpha [Homo sapiens]
+      ID: pdb|3IA3|B
+      长度: 145
+      E-value: 4.74e-97
+      Score: 733.0 bits (286.96)
+      Identities: 142/142 (100.0%)
+      Gaps: 0/142
+
+  [4] mutant hemoglobin alpha 2 globin chain [Homo sapiens]
+      ID: gb|AKZ66543.1|
+      长度: 142
+      E-value: 6.56e-97
+      Score: 731.0 bits (286.189)
+      Identities: 141/142 (99.3%)
+      Gaps: 0/142
+
+  [5] mutant hemoglobin subunit alpha 2 [Homo sapiens]
+      ID: gb|AXY55002.1|
+      长度: 142
+      E-value: 7.91e-97
+      Score: 731.0 bits (286.189)
+      Identities: 141/142 (99.3%)
+      Gaps: 0/142
+
+  [6] hemoglobin alpha-2 [Homo sapiens]
+      ID: gb|AAN04486.1|
+      长度: 142
+      E-value: 1.10e-96
+      Score: 730.0 bits (285.804)
+      Identities: 141/142 (99.3%)
+      Gaps: 0/142
+
+  [7] alpha-2-globin [Homo sapiens]
+      ID: gb|AAF72612.1|
+      长度: 142
+      E-value: 1.60e-96
+      Score: 729.0 bits (285.419)
+      Identities: 141/142 (99.3%)
+      Gaps: 0/142
+
+  [8] TPA: globin C1 [Homo sapiens] >tpe|SAI82136.1| TPA: globin C2 [Homo sapiens]
+      ID: tpe|SAI82135.1|
+      长度: 177
+      E-value: 1.69e-96
+      Score: 732.0 bits (286.574)
+      Identities: 142/142 (100.0%)
+      Gaps: 0/142
+
+  [9] hemoglobin subunit alpha [Gorilla gorilla gorilla]
+      ID: ref|XP_030858703.1|
+      长度: 142
+      E-value: 2.03e-96
+      Score: 728.0 bits (285.034)
+      Identities: 141/142 (99.3%)
+      Gaps: 0/142
+
+  [10] hemoglobin alpha 1-2 hybrid [Homo sapiens]
+      ID: gb|ABF56145.1|
+      长度: 142
+      E-value: 3.15e-96
+      Score: 727.0 bits (284.648)
+      Identities: 141/142 (99.3%)
+      Gaps: 0/142
+
+
+======================================================================
+
+查询序列: sp|P69905|HBA_HUMAN_short
+----------------------------------------------------------------------
+数据库: nr
+查询长度: 60
+找到 10 个比对
+
+  [1] hemoglobin alpha 1 globin chain, partial [Homo sapiens]
+      ID: gb|AAK15770.1|
+      长度: 100
+      E-value: 5.06e-36
+      Score: 319.0 bits (127.487)
+      Identities: 60/60 (100.0%)
+      Gaps: 0/60
+
+  [2] mutant hemoglobin alpha 2 globin chain, partial [Homo sapiens] >gb|AHA12104.1| mutant hemoglobin alpha 1 globin chain, partial [Homo sapiens]
+      ID: gb|AHA12099.1|
+      长度: 100
+      E-value: 5.12e-36
+      Score: 319.0 bits (127.487)
+      Identities: 60/60 (100.0%)
+      Gaps: 0/60
+
+  [3] hemoglobin subunit alpha 1, partial [Homo sapiens]
+      ID: gb|XIF27002.1|
+      长度: 100
+      E-value: 5.40e-36
+      Score: 318.0 bits (127.102)
+      Identities: 60/60 (100.0%)
+      Gaps: 0/60
+
+  [4] mutant hemoglobin subunit alpha 2 [Homo sapiens]
+      ID: gb|AXY55002.1|
+      长度: 142
+      E-value: 6.19e-36
+      Score: 322.0 bits (128.642)
+      Identities: 60/60 (100.0%)
+      Gaps: 0/60
+
+  [5] mutant hemoglobin subunit alpha 2 [Homo sapiens]
+      ID: gb|AXY54999.1|
+      长度: 141
+      E-value: 6.28e-36
+      Score: 321.0 bits (128.257)
+      Identities: 60/60 (100.0%)
+      Gaps: 0/60
+
+  [6] mutant hemoglobin subunit alpha 2 [Homo sapiens]
+      ID: gb|AXY55000.1|
+      长度: 141
+      E-value: 6.28e-36
+      Score: 321.0 bits (128.257)
+      Identities: 60/60 (100.0%)
+      Gaps: 0/60
+
+  [7] hemoglobin alpha 1-2 hybrid [Homo sapiens]
+      ID: gb|ABF56145.1|
+      长度: 142
+      E-value: 6.33e-36
+      Score: 321.0 bits (128.257)
+      Identities: 60/60 (100.0%)
+      Gaps: 0/60
+
+  [8] mutant hemoglobin alpha 2 globin chain [Homo sapiens]
+      ID: gb|AKZ66543.1|
+      长度: 142
+      E-value: 6.54e-36
+      Score: 321.0 bits (128.257)
+      Identities: 60/60 (100.0%)
+      Gaps: 0/60
+
+  [9] hemoglobin subunit alpha [Homo sapiens] >ref|NP_000549.1| hemoglobin subunit alpha [Homo sapiens] >ref|NP_001036091.1| hemoglobin subunit alpha [Pan troglodytes] >ref|NP_001036092.1| hemoglobin subunit alpha [Pan troglodytes] >ref|NP_001125901.1| hemoglobin subunit alpha [Pongo abelii] >ref|XP_003809438.1| hemoglobin subunit alpha [Pan paniscus] >ref|XP_003809441.3| hemoglobin subunit alpha [Pan paniscus] >ref|XP_054934595.1| hemoglobin subunit alpha [Pan troglodytes] >sp|P69905.2| RecName: Full=Hemoglobin subunit alpha; AltName: Full=Alpha-globin; AltName: Full=Hemoglobin alpha chain; Contains: RecName: Full=Hemopressin [Homo sapiens] >sp|P69906.2| RecName: Full=Hemoglobin subunit alpha; AltName: Full=Alpha-globin; AltName: Full=Hemoglobin alpha chain; Contains: RecName: Full=Hemopressin [Pan paniscus] >sp|P69907.2| RecName: Full=Hemoglobin subunit alpha; AltName: Full=Alpha-globin; AltName: Full=Hemoglobin alpha chain; Contains: RecName: Full=Hemopressin [Pan troglodytes] >pdb|1BZ1|A Chain A, PROTEIN (HEMOGLOBIN ALPHA CHAIN) [Homo sapiens] >pdb|1BZ1|C Chain C, PROTEIN (HEMOGLOBIN ALPHA CHAIN) [Homo sapiens] >pdb|1Y01|B Chain B, Hemoglobin alpha chain [Homo sapiens] >pdb|1Z8U|B Chain B, Hemoglobin alpha chain [Homo sapiens] >pdb|1Z8U|D Chain D, Hemoglobin alpha chain [Homo sapiens] >pdb|6KYE|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|6KYE|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|6KYE|E Chain E, Hemoglobin subunit alpha [Homo sapiens] >pdb|6KYE|G Chain G, Hemoglobin subunit alpha [Homo sapiens] >pdb|6KYE|I Chain I, Hemoglobin subunit alpha [Homo sapiens] >pdb|6KYE|K Chain K, Hemoglobin subunit alpha [Homo sapiens] >pdb|7CUE|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|7CUE|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|7K4M|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|7K4M|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|7K4M|E Chain E, Hemoglobin subunit alpha [Homo sapiens] >pdb|7K4M|G Chain G, Hemoglobin subunit alpha [Homo sapiens] >pdb|7K4M|I Chain I, Hemoglobin subunit alpha [Homo sapiens] >pdb|7UD7|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|7UD7|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|7UD8|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|7UD8|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|7UF6|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|7UF6|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|7UF7|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|7UF7|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|7VDE|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|7VDE|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|7XGY|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|7XGY|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|8EGI|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|8EGI|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|8VYL|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|8VYL|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|8WJ0|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|8WJ1|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|8WJ2|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|8XMP|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|8XMQ|C Chain C, Hemoglobin subunit alpha [Homo sapiens] >pdb|8XMW|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|9FHB|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|9FMU|A Chain A, Hemopressin [Homo sapiens] >pdb|9FNO|A Chain A, Hemopressin [Homo sapiens] >pdb|9HEJ|D Chain D, Hemoglobin subunit alpha [Homo sapiens] >pdb|9HEK|D Chain D, Hemoglobin subunit alpha [Homo sapiens] >pdb|9NB6|D Chain D, Hemoglobin subunit alpha [Homo sapiens] >pdb|9NB8|D Chain D, Hemoglobin subunit alpha [Homo sapiens] >pdb|9VIB|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >pdb|9VIC|A Chain A, Hemoglobin subunit alpha [Homo sapiens] >gb|AAX36652.1| hemoglobin alpha 2 [synthetic construct] >gb|AAB59407.1| hemoglobin alpha 2 [Homo sapiens] >gb|AAB59408.1| hemoglobin alpha 1 [Homo sapiens] >gb|AAC72839.1| alpha-2 globin [Homo sapiens] >gb|AAC97373.1| alpha one globin [Homo sapiens]
+      ID: ref|NP_000508.1|
+      长度: 142
+      E-value: 6.61e-36
+      Score: 321.0 bits (128.257)
+      Identities: 60/60 (100.0%)
+      Gaps: 0/60
+
+  [10] hemoglobin alpha 2, partial [synthetic construct]
+      ID: gb|AAX29522.1|
+      长度: 143
+      E-value: 6.66e-36
+      Score: 321.0 bits (128.257)
+      Identities: 60/60 (100.0%)
+      Gaps: 0/60
+
+
+======================================================================
+
+查询序列: sp|P68871|HBB_HUMAN
+----------------------------------------------------------------------
+数据库: nr
+查询长度: 147
+找到 10 个比对
+
+  [1] hemoglobin beta, partial [synthetic construct]
+      ID: gb|AAX37051.1|
+      长度: 148
+      E-value: 8.19e-103
+      Score: 771.0 bits (301.597)
+      Identities: 147/147 (100.0%)
+      Gaps: 0/147
+
+  [2] hemoglobin beta, partial [synthetic construct]
+      ID: gb|AAX29557.1|
+      长度: 148
+      E-value: 8.85e-103
+      Score: 771.0 bits (301.597)
+      Identities: 147/147 (100.0%)
+      Gaps: 0/147
+
+  [3] hemoglobin subunit beta [Homo sapiens] >ref|XP_003819077.1| hemoglobin subunit beta [Pan paniscus] >ref|XP_508242.1| hemoglobin subunit beta [Pan troglodytes] >sp|P68871.2| RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain; Contains: RecName: Full=LVV-hemorphin-7; Contains: RecName: Full=Spinorphin [Homo sapiens] >sp|P68872.2| RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Pan paniscus] >sp|P68873.2| RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Pan troglodytes] >pdb|1DXT|B Chain B, HEMOGLOBIN (DEOXY) (BETA CHAIN) [Homo sapiens] >pdb|1DXT|D Chain D, HEMOGLOBIN (DEOXY) (BETA CHAIN) [Homo sapiens] >pdb|6KYE|B Chain B, Hemoglobin subunit beta [Homo sapiens] >pdb|6KYE|D Chain D, Hemoglobin subunit beta [Homo sapiens] >pdb|6KYE|F Chain F, Hemoglobin subunit beta [Homo sapiens] >pdb|6KYE|H Chain H, Hemoglobin subunit beta [Homo sapiens] >pdb|6KYE|J Chain J, Hemoglobin subunit beta [Homo sapiens] >pdb|6KYE|L Chain L, Hemoglobin subunit beta [Homo sapiens] >pdb|7CUE|B Chain B, Hemoglobin subunit beta [Homo sapiens] >pdb|7CUE|D Chain D, Hemoglobin subunit beta [Homo sapiens] >pdb|7UD7|B Chain B, Hemoglobin subunit beta [Homo sapiens] >pdb|7UD7|D Chain D, Hemoglobin subunit beta [Homo sapiens] >pdb|7UD8|B Chain B, Hemoglobin subunit beta [Homo sapiens] >pdb|7UD8|D Chain D, Hemoglobin subunit beta [Homo sapiens] >pdb|7UF6|B Chain B, Hemoglobin subunit beta [Homo sapiens] >pdb|7UF6|D Chain D, Hemoglobin subunit beta [Homo sapiens] >pdb|7UF7|B Chain B, Hemoglobin subunit beta [Homo sapiens] >pdb|7UF7|D Chain D, Hemoglobin subunit beta [Homo sapiens] >pdb|7VDE|B Chain B, Hemoglobin subunit beta [Homo sapiens] >pdb|7VDE|D Chain D, Hemoglobin subunit beta [Homo sapiens] >pdb|7XGY|B Chain B, Hemoglobin subunit beta [Homo sapiens] >pdb|7XGY|D Chain D, Hemoglobin subunit beta [Homo sapiens] >pdb|8EGI|B Chain B, Hemoglobin subunit beta [Homo sapiens] >pdb|8EGI|D Chain D, Hemoglobin subunit beta [Homo sapiens] >pdb|8VYL|B Chain B, Hemoglobin subunit beta [Homo sapiens] >pdb|8VYL|D Chain D, Hemoglobin subunit beta [Homo sapiens] >pdb|8WJ0|B Chain B, Hemoglobin subunit beta [Homo sapiens] >pdb|8WJ1|B Chain B, Hemoglobin subunit beta [Homo sapiens] >pdb|8WJ2|B Chain B, Hemoglobin subunit beta [Homo sapiens] >pdb|8XMP|G Chain G, Hemoglobin subunit beta [Homo sapiens] >pdb|8XMQ|G Chain G, Hemoglobin subunit beta [Homo sapiens] >pdb|8XMW|B Chain B, Hemoglobin subunit beta [Homo sapiens] >pdb|9FHB|B Chain B, Hemoglobin subunit beta [Homo sapiens] >pdb|9FMU|B Chain B, Spinorphin [Homo sapiens] >pdb|9FNO|B Chain B, Spinorphin [Homo sapiens] >pdb|9HEJ|E Chain E, Hemoglobin subunit beta [Homo sapiens] >pdb|9HEK|E Chain E, Hemoglobin subunit beta [Homo sapiens] >pdb|9NB6|E Chain E, Hemoglobin subunit beta [Homo sapiens] >pdb|9NB8|E Chain E, Hemoglobin subunit beta [Homo sapiens] >pdb|9VIB|B Chain B, Hemoglobin subunit beta [Homo sapiens] >pdb|9VIC|B Chain B, Hemoglobin subunit beta [Homo sapiens] >gb|AAX42099.1| hemoglobin beta [synthetic construct] >emb|SJX31880.1| unnamed protein product, partial [Human ORFeome Gateway entry vector] >gb|AAA16334.1| beta-globin [Homo sapiens] >gb|AAA21100.1| beta-globin [Homo sapiens] >gb|AAA21101.1| beta-globin [Homo sapiens]
+      ID: ref|NP_000509.1|
+      长度: 147
+      E-value: 1.15e-102
+      Score: 770.0 bits (301.212)
+      Identities: 147/147 (100.0%)
+      Gaps: 0/147
+
+  [4] hemoglobin subunit beta [Gorilla gorilla gorilla] >sp|P02024.2| RecName: Full=Hemoglobin subunit beta; AltName: Full=Beta-globin; AltName: Full=Hemoglobin beta chain [Gorilla gorilla gorilla]
+      ID: ref|XP_018891709.1|
+      长度: 147
+      E-value: 4.02e-102
+      Score: 767.0 bits (300.056)
+      Identities: 146/147 (99.3%)
+      Gaps: 0/147
+
+  [5] beta globin chain variant [Homo sapiens]
+      ID: gb|AAN84548.1|
+      长度: 147
+      E-value: 4.29e-102
+      Score: 766.0 bits (299.671)
+      Identities: 146/147 (99.3%)
+      Gaps: 0/147
+
+  [6] beta-globin [Homo sapiens]
+      ID: gb|ACU56984.1|
+      长度: 147
+      E-value: 4.29e-102
+      Score: 766.0 bits (299.671)
+      Identities: 146/147 (99.3%)
+      Gaps: 0/147
+
+  [7] beta globin [Homo sapiens] >gb|AAZ39781.1| beta globin [Homo sapiens] >gb|AAZ39782.1| beta globin [Homo sapiens] >gb|AAZ39783.1| beta globin [Homo sapiens] >gb|AAZ39784.1| beta globin [Homo sapiens]
+      ID: gb|AAZ39780.1|
+      长度: 147
+      E-value: 4.29e-102
+      Score: 766.0 bits (299.671)
+      Identities: 146/147 (99.3%)
+      Gaps: 0/147
+
+  [8] hemoglobin beta chain [Homo sapiens]
+      ID: gb|AAD19696.1|
+      长度: 147
+      E-value: 5.58e-102
+      Score: 766.0 bits (299.671)
+      Identities: 146/147 (99.3%)
+      Gaps: 0/147
+
+  [9] HBB, partial [synthetic construct]
+      ID: gb|AKI70610.1|
+      长度: 147
+      E-value: 5.58e-102
+      Score: 766.0 bits (299.671)
+      Identities: 146/147 (99.3%)
+      Gaps: 0/147
+
+  [10] HBB, partial [synthetic construct]
+      ID: gb|AKI70611.1|
+      长度: 147
+      E-value: 8.11e-102
+      Score: 765.0 bits (299.286)
+      Identities: 146/147 (99.3%)
+      Gaps: 0/147
+
+
+======================================================================
+

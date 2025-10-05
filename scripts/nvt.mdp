@@ -1,0 +1,14 @@
+; NVT
+integrator  = md
+dt          = 0.002
+nsteps      = 10000
+nstlist     = 10
+cutoff-scheme = Verlet
+coulombtype = PME
+rcoulomb    = 1.0
+rvdw        = 1.0
+pbc         = xyz
+tcoupl      = V-rescale
+tc-grps     = Protein Non-Protein
+tau-t       = 0.1 0.1
+ref-t       = 300 300

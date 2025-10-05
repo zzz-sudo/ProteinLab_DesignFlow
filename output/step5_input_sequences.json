@@ -1,0 +1,498 @@
+{
+  "design_method": "esm_if",
+  "timestamp": "2025-10-03",
+  "source": "step4_esmfold_results",
+  "total_sequences": 40,
+  "results": {
+    "protein_backbone_0": {
+      "backbone_id": "protein_backbone_0",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_0_esm_if_009",
+          "sequence": "KSHETFYWHYWNDFQHFIRSYMNQQQLSDNSQSSSVMAVFFSSMSQIKRDSMRHTKFFRKYMSWAMYLLAERKDAKFNTLADGIREMMRQHEHSENRHTR",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 53.115150451660156,
+          "ptm": 0.33916711807250977,
+          "quality_score": 43.515931129455566,
+          "prediction_status": "completed"
+        }
+      ]
+    },
+    "protein_backbone_1": {
+      "backbone_id": "protein_backbone_1",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_1_esm_if_004",
+          "sequence": "HDDSERQKETRHEVAWFNEIHKESKHKGTHSAETHAFIAAILYVAAHNHSHSAESHVERTMDRQNDDFGDNDKRVDYNVDHHQHADKQWSVMWWVDIALK",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 46.7982177734375,
+          "ptm": 0.3446609377861023,
+          "quality_score": 40.632155776023865,
+          "prediction_status": "completed"
+        },
+        {
+          "sequence_id": "protein_backbone_1_esm_if_009",
+          "sequence": "SKHETKHRHHRNDFMSLHKIRSHMNQQSQNAMNSQAWWYAMSVMAVEKSSQQIKRDAQRHIKKKRKHMAREQHNSEARSKDEKKLTEDGIWAMMWSMYAE",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 69.18464660644531,
+          "ptm": 0.33651116490364075,
+          "quality_score": 51.417881548404694,
+          "prediction_status": "completed"
+        }
+      ]
+    },
+    "protein_backbone_10": {
+      "backbone_id": "protein_backbone_10",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_10_esm_if_001",
+          "sequence": "HMDRVFHGLYDFMDVLWKIVWTFARESSNHQELKNYFEHIMEIGEKIMHVYNSQTDMTRWQRIGTQVYEDKIFDGAESEYEDAVDNAVNNAKHGEHHEDH",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 54.874000549316406,
+          "ptm": 0.3845120370388031,
+          "quality_score": 46.66260212659836,
+          "prediction_status": "completed"
+        },
+        {
+          "sequence_id": "protein_backbone_10_esm_if_002",
+          "sequence": "KATRSAQILVSMLTLLMRFFARAASNSFKEDKVERAMNSYSRWWEDMYQLYKNDQHAQHVKRMWQEMWTHSAVTMIRESMHKYVKRAFDKLHDAETEKHD",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 60.63612747192383,
+          "ptm": 0.3152821660041809,
+          "quality_score": 46.08217203617096,
+          "prediction_status": "completed"
+        },
+        {
+          "sequence_id": "protein_backbone_10_esm_if_007",
+          "sequence": "SMTKKASYYLSYYSVSANLWLRGLHNTWHSRNYHRSYNNWFDMLSQMYSLIHQTDKLTHMRSVFNTGMSQSVFSMMTSHWRNSAEEWYDHASQWTHRNTD",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 54.098880767822266,
+          "ptm": 0.3322710394859314,
+          "quality_score": 43.6629923582077,
+          "prediction_status": "completed"
+        }
+      ]
+    },
+    "protein_backbone_11": {
+      "backbone_id": "protein_backbone_11",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_11_esm_if_007",
+          "sequence": "KQTKHSSHHNSHHSDELLRLSRNYLTRYARNHHWSHLLRFVQNAMQHALTHQGIDKLISHMSRAVFNIQSMSDKSQMISYWWNSAERYVHSSQRTHRNTD",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 51.260765075683594,
+          "ptm": 0.3024323582649231,
+          "quality_score": 40.75200045108795,
+          "prediction_status": "completed"
+        },
+        {
+          "sequence_id": "protein_backbone_11_esm_if_009",
+          "sequence": "KSHETKHRHHRNDKQHFIRSGSHMLQQSMNSQNSAQAADMADKFASQSMTKRVAQRYIFKFWKYMARAQHLEERKDAFKLVSTEVTRAMQRQHEHSENRH",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 56.83811569213867,
+          "ptm": 0.33860862255096436,
+          "quality_score": 45.349488973617554,
+          "prediction_status": "completed"
+        }
+      ]
+    },
+    "protein_backbone_12": {
+      "backbone_id": "protein_backbone_12",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_12_esm_if_006",
+          "sequence": "NHDEEQSDSDDIDLSLTVFENGIRSNALTFMFWGGYYIWQEKMRHFSQTSFKLLASTAKAEHHRLNNAAREAKKHDKEIDEGAHIVHSIGNNVAERDEHT",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 74.61559295654297,
+          "ptm": 0.4271467626094818,
+          "quality_score": 58.665134608745575,
+          "prediction_status": "completed"
+        }
+      ]
+    },
+    "protein_backbone_13": {
+      "backbone_id": "protein_backbone_13",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_13_esm_if_002",
+          "sequence": "ESTRRAMTLVAQLGTNLQRFKSREALANAFFEGVKEWAQNSYRRWASDMYMLSFLVMYEQHVKWMRMAMRSIYSAVIQTRASMYKHVGKRAKDFNKHDEH",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 74.60506439208984,
+          "ptm": 0.39500558376312256,
+          "quality_score": 57.05281138420105,
+          "prediction_status": "completed"
+        },
+        {
+          "sequence_id": "protein_backbone_13_esm_if_003",
+          "sequence": "EQTEHMAKMSADVYQDMQHWKRTEVFWQASFNAAHNAMKEQLNTLLGEIAGFLSFYVWRHNWTAGTASAQWGWSASAKNDYHLWSKLAEKLKELTKRRKT",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 64.5151596069336,
+          "ptm": 0.3509671986103058,
+          "quality_score": 49.805939733982086,
+          "prediction_status": "completed"
+        }
+      ]
+    },
+    "protein_backbone_14": {
+      "backbone_id": "protein_backbone_14",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_14_esm_if_002",
+          "sequence": "ESTRSAQTLVSQLTNNQRKKSREASANAFKAGVKAWSQLGSHSSWWWASMSVQTQNKLVMYAMYVKRQWMEMWSTYAADIMTWAAQHKHVGFWEFDDKHN",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 58.21186828613281,
+          "ptm": 0.32946205139160156,
+          "quality_score": 45.579036712646484,
+          "prediction_status": "completed"
+        },
+        {
+          "sequence_id": "protein_backbone_14_esm_if_009",
+          "sequence": "KSHEIFHRYYRNSDKQHKTRSHQLGMQSMNAMLSMASDMADKFASMAMSWMIKSDSQWYIFFFFWKHQAWEMYLEAWSKVAKFLSTEDTWAMMRSQHEHS",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 61.025115966796875,
+          "ptm": 0.3630959987640381,
+          "quality_score": 48.66735792160034,
+          "prediction_status": "completed"
+        }
+      ]
+    },
+    "protein_backbone_15": {
+      "backbone_id": "protein_backbone_15",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_15_esm_if_002",
+          "sequence": "ESTRSAQTLDSMLTNNMRKKSWAASAGNAFFEGVKEWSQNGGAYLSWWWESMSVMYQNKNDQYAMYVFRMWMEMWTHASDTQTWWAAMYGFYDKWAKDDE",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 50.28496170043945,
+          "ptm": 0.3036065697669983,
+          "quality_score": 40.32280933856964,
+          "prediction_status": "completed"
+        },
+        {
+          "sequence_id": "protein_backbone_15_esm_if_007",
+          "sequence": "KQTKKASHYNSYYSDELNRNRGLYLSIRYAWNYYRHLNRKVMLAMMYALTYYGMGIDKNTHQSWAVFLTGMAQAVKSMQTSHRWLSGGLSAAERYVHSSD",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 68.22823333740234,
+          "ptm": 0.41012248396873474,
+          "quality_score": 54.62024086713791,
+          "prediction_status": "completed"
+        },
+        {
+          "sequence_id": "protein_backbone_15_esm_if_010",
+          "sequence": "KRSKWARKGRRFFQHKSHTKDAAAYFWNMVVQALRDIQREGYWVWIFIIQYMVLMFTEQDQQFFSFAAQVIWKFYDEAKRKNEWVYLVVFWLTKMRDHKD",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 49.441307067871094,
+          "ptm": 0.33443424105644226,
+          "quality_score": 41.44236558675766,
+          "prediction_status": "completed"
+        }
+      ]
+    },
+    "protein_backbone_17": {
+      "backbone_id": "protein_backbone_17",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_17_esm_if_003",
+          "sequence": "EQTEKQAFMSAVDYGMDMMHRFWTAVKRQAKNAESYSNSMFEMLNTLLETAKNKYDRWYNRIETASSGMRRAASKNGVHHLWSKLAEKLFELIKHDRKQQ",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 55.549034118652344,
+          "ptm": 0.36051881313323975,
+          "quality_score": 45.80045771598816,
+          "prediction_status": "completed"
+        },
+        {
+          "sequence_id": "protein_backbone_17_esm_if_005",
+          "sequence": "EREKSQLALAAVHLLLNYVEEYANFAETTASDWSIWASHVASSYHSLVSQFNHRWHQFYQTANRGARLFRNMAKNQMWRDGMHHVYRTVGRFWDKVETKS",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 80.58544158935547,
+          "ptm": 0.41897761821746826,
+          "quality_score": 61.24160170555115,
+          "prediction_status": "completed"
+        },
+        {
+          "sequence_id": "protein_backbone_17_esm_if_007",
+          "sequence": "KQTKKSAYYLAYHAVSELLRNSWNYLTRHARNYHWSYNNWFDMLSQMYSNIHQTVKNISHQSRSVFNIGQSMADKSMMTSYWRNSAEEWYDYASQEWTHR",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 51.5805549621582,
+          "ptm": 0.32510697841644287,
+          "quality_score": 42.045626401901245,
+          "prediction_status": "completed"
+        }
+      ]
+    },
+    "protein_backbone_18": {
+      "backbone_id": "protein_backbone_18",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_18_esm_if_001",
+          "sequence": "TQDRDKYGNHSSDFMDDLRKTVRTKSRASNHMANKLYKAYIMAIEGFIQHVNAMIDMIRRGMRTGTGMVHAVKTKDEAAEHAVSVVNSVLNSLFHGAHHQ",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 69.49369812011719,
+          "ptm": 0.42090702056884766,
+          "quality_score": 55.79220008850098,
+          "prediction_status": "completed"
+        },
+        {
+          "sequence_id": "protein_backbone_18_esm_if_003",
+          "sequence": "EQTEHQAFQEVVHGMDQMHRKWTEDKRMSKNAAHNAMKAMLLILNGAIEKLKYVWRYLRTAGTESSGMWRAASKNDHYLRSFLEAFNKALTKYGQMKNDN",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 63.96540451049805,
+          "ptm": 0.34976696968078613,
+          "quality_score": 49.47105073928833,
+          "prediction_status": "completed"
+        },
+        {
+          "sequence_id": "protein_backbone_18_esm_if_004",
+          "sequence": "HQDSERMFETWGHAVERLETHFEKHKTYEETSYSKGASGLYVAANGLYSHAEAAYDAWTQVWQNVDFGGDSLDKRDDYLDDYYQYADKGMRDMWRVDTSH",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 51.762794494628906,
+          "ptm": 0.3012129068374634,
+          "quality_score": 40.94204258918762,
+          "prediction_status": "completed"
+        },
+        {
+          "sequence_id": "protein_backbone_18_esm_if_008",
+          "sequence": "REERHKLWRTLFSLMHTYKEQAKKRDEIHKRFSDNMGSLAGVAWRMLVNQSNWYVTFYRDLSHTMEMWGHAADSHTDALNSGMNVVSELIHRAAQMRRST",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 87.21025085449219,
+          "ptm": 0.457987904548645,
+          "quality_score": 66.50452065467834,
+          "prediction_status": "completed"
+        },
+        {
+          "sequence_id": "protein_backbone_18_esm_if_010",
+          "sequence": "KRSKRSWFRRFFQYSKHGTKDAEEHKRGNQDVMENWVTMWAGYWDWIFTTMHVLMKGIEQVMQKFKAAMDGWKKHDEAFRKGLEWVHNVVKRLGTFKQDD",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 62.959354400634766,
+          "ptm": 0.30620652437210083,
+          "quality_score": 46.790003418922424,
+          "prediction_status": "completed"
+        }
+      ]
+    },
+    "protein_backbone_19": {
+      "backbone_id": "protein_backbone_19",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_19_esm_if_001",
+          "sequence": "TQDRDKYGNHSSDFMDVLWFIVRTFSGRAASNYMANFLYFAYIQETGEKIMHDLAQTVQTRWQRIGTQDYEDFTKVGEESEHAVSDDSNSVLNSSKKHKQ",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 71.61096954345703,
+          "ptm": 0.3020947575569153,
+          "quality_score": 50.91022264957428,
+          "prediction_status": "completed"
+        },
+        {
+          "sequence_id": "protein_backbone_19_esm_if_007",
+          "sequence": "KQTKHSAYHNAYHAVELLWLSWNHLTWHAWLHYWSHLLWFVMLSQQYSNIYQTVFNTSHQRADKLIQSQADKAQQISSHRRNSAEERYDHAAQRIHRNTD",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 83.84048461914062,
+          "ptm": 0.41677919030189514,
+          "quality_score": 62.75920182466507,
+          "prediction_status": "completed"
+        },
+        {
+          "sequence_id": "protein_backbone_19_esm_if_009",
+          "sequence": "KSHETKYWHHWLDFMHFIWSGAHQLQMQLFAQLSAQAASVMAVKKSSSQSMTKWVSQWHTKFKRFYQSRAQHLEEWSKDEKKLSTEDGTRAMQRSQHEHK",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 57.288455963134766,
+          "ptm": 0.32344067096710205,
+          "quality_score": 44.816261529922485,
+          "prediction_status": "completed"
+        },
+        {
+          "sequence_id": "protein_backbone_19_esm_if_010",
+          "sequence": "KRSKRSWFRRFFQYSKSYGIFVSEAHFRGLMDVMANWVIMWAGHRDWTKIIQHVLQKGTEQVQQFFKSSMDRFKHVSESKRKGLERHLDDFWNTFHQDDT",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 58.372005462646484,
+          "ptm": 0.35851728916168213,
+          "quality_score": 47.11186718940735,
+          "prediction_status": "completed"
+        }
+      ]
+    },
+    "protein_backbone_2": {
+      "backbone_id": "protein_backbone_2",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_2_esm_if_001",
+          "sequence": "TDDRVKHGLYSSDKQVVLWFIVMWWTKSGWESSNHQVENFLHKAYIMEIEGFTQHVYLWAMIVMTWWRGMRIIIQVYADKIKNEEAAYEVAVDSLSDNNK",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 60.81740188598633,
+          "ptm": 0.3236308991909027,
+          "quality_score": 46.5902459025383,
+          "prediction_status": "completed"
+        }
+      ]
+    },
+    "protein_backbone_4": {
+      "backbone_id": "protein_backbone_4",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_4_esm_if_007",
+          "sequence": "SQTKKSAYHNAYHSVSELLRNSRNYNSFTRYAWNYYWHLNWFVQNSQQHKNIYGMGIVFLIHDRSDFLIGMSMAVKAQMISSYWWNSAAEWYDYAADQRR",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 46.39646530151367,
+          "ptm": 0.3091416656970978,
+          "quality_score": 38.655315935611725,
+          "prediction_status": "completed"
+        }
+      ]
+    },
+    "protein_backbone_5": {
+      "backbone_id": "protein_backbone_5",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_5_esm_if_008",
+          "sequence": "REERHKNRWTNFANQSYTYFEQAKKRDETHFWFSVLMGSLADEWRQLDNQNRVIFYWDLSYTMEQRHAAGVSAGGYIVAWLNSQLDSAWNIFSHWASHHQ",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 53.667877197265625,
+          "ptm": 0.33324891328811646,
+          "quality_score": 43.496384263038635,
+          "prediction_status": "completed"
+        }
+      ]
+    },
+    "protein_backbone_6": {
+      "backbone_id": "protein_backbone_6",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_6_esm_if_002",
+          "sequence": "ESTRRSQTNDSQNTNLQRKFSRESSSNSFKEDKERSQNSYSRRRELDQYQNKNDQHEQHVFWMWMAMWTHAAVIMIWAAMHKHDEWAFVFLGYVAKAIAK",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 73.90068817138672,
+          "ptm": 0.3361157774925232,
+          "quality_score": 53.75613296031952,
+          "prediction_status": "completed"
+        }
+      ]
+    },
+    "protein_backbone_7": {
+      "backbone_id": "protein_backbone_7",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_7_esm_if_001",
+          "sequence": "TQDRVKHGLHDFMDVLRFIVRIFSGWESNYQELFNHFAHIMETGAGKIMHDNAQTVMIRWGQWITQVHEVKTKDGAEAAYEVAVDSLSDLLSSFHKAHHQ",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 59.289669036865234,
+          "ptm": 0.3958238363265991,
+          "quality_score": 49.43602633476257,
+          "prediction_status": "completed"
+        },
+        {
+          "sequence_id": "protein_backbone_7_esm_if_006",
+          "sequence": "NHDEAQSVADDIVNSLTVMFEGLTWANSNIKQFWHHIWQSGEKMWYKSMTKKLNSGVSSIAKAAHHSRNLNEERAAKFYVKAWIDAGEHIVHAINNVEER",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 60.317359924316406,
+          "ptm": 0.32210224866867065,
+          "quality_score": 46.263792395591736,
+          "prediction_status": "completed"
+        },
+        {
+          "sequence_id": "protein_backbone_7_esm_if_008",
+          "sequence": "REERYKNWWTNFANMSHIYFEMAKFFRDEIHKWFDNMGSLADEWWMNVLQNRVTKYWVNSYTMAQRGHEADSHTVANLGGSGMLDAANTSYRAAQQRRST",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 53.85224151611328,
+          "ptm": 0.3445560932159424,
+          "quality_score": 44.15392541885376,
+          "prediction_status": "completed"
+        },
+        {
+          "sequence_id": "protein_backbone_7_esm_if_010",
+          "sequence": "KRSKWSRFGRRFFQYSKSYGTFVSAAHKRGNQVVQELWDIMREGYWDWIKTTMHDLMFTAMDMMKKSKSAQDRKFYDSGASFWFNAWHNVVKWLTKKQDD",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 56.65529251098633,
+          "ptm": 0.4461216926574707,
+          "quality_score": 50.6337308883667,
+          "prediction_status": "completed"
+        }
+      ]
+    },
+    "protein_backbone_8": {
+      "backbone_id": "protein_backbone_8",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_8_esm_if_008",
+          "sequence": "REEWHKLWRILKALMHIYKEQEKFRDAIYFWFSVLMGALADERRQNDNQNWDTKHRDLSYSSTQEMWHEAGDSGHTVSNNGSGMLDAALTHWESMMDRST",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 47.37840270996094,
+          "ptm": 0.3154054582118988,
+          "quality_score": 39.45947426557541,
+          "prediction_status": "completed"
+        },
+        {
+          "sequence_id": "protein_backbone_8_esm_if_009",
+          "sequence": "SSHHTKYWHYWNSVFQSSHKTRSYQNGMMSMLAMLLAMAADQEDKKSSQQIKRDSQRYIFFFRKHMAREMYNEARKVEKKLTSAVTWAMQRSQHAEHSEH",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 67.15465545654297,
+          "ptm": 0.35761284828186035,
+          "quality_score": 51.4579701423645,
+          "prediction_status": "completed"
+        }
+      ]
+    },
+    "protein_backbone_9": {
+      "backbone_id": "protein_backbone_9",
+      "sequences": [
+        {
+          "sequence_id": "protein_backbone_9_esm_if_003",
+          "sequence": "EQTEHMAKMSADVYGQVMMHRKWTEDFRQASFGLAEHSLAMFAQLLILLETAGKNKHVWRHLWTAGIASAQRGWAESKLDHTNWSKLAEFLKENTKRRKT",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 63.25458526611328,
+          "ptm": 0.33028608560562134,
+          "quality_score": 48.14159691333771,
+          "prediction_status": "completed"
+        },
+        {
+          "sequence_id": "protein_backbone_9_esm_if_009",
+          "sequence": "KSHETFYRYYWNSVFQSSYKTRSSHQLQQSMLAMLSQAAMSVMEVFFASSQSMTKRDAMRHIFKFWFYMAREMYLEERSKDQKFNTLADGIREQQRRQHQ",
+          "length": 100,
+          "method": "esm_if",
+          "plddt_mean": 58.54603958129883,
+          "ptm": 0.3272663354873657,
+          "quality_score": 45.6363365650177,
+          "prediction_status": "completed"
+        }
+      ]
+    }
+  }
+}

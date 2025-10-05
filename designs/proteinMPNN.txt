@@ -1,0 +1,68 @@
+%%time
+#@title run **ProteinMPNN** to generate a sequence and **AlphaFold** to validate
+num_seqs = 8 #@param ["1", "2", "4", "8", "16", "32", "64"] {type:"raw"}
+initial_guess = False #@param {type:"boolean"}
+num_recycles = 1 #@param ["0", "1", "2", "3", "6", "12"] {type:"raw"}
+use_multimer = False #@param {type:"boolean"}
+rm_aa = "C" #@param {type:"string"}
+mpnn_sampling_temp = 0.1 #@param ["0.0001", "0.1", "0.15", "0.2", "0.25", "0.3", "0.5", "1.0"] {type:"raw"}
+#@markdown - for **binder** design, we recommend `initial_guess=True num_recycles=3`
+
+if not os.path.isfile("params/done.txt"):
+  print("downloading AlphaFold params...")
+  while not os.path.isfile("params/done.txt"):
+    time.sleep(5)
+
+contigs_str = ":".join(contigs)
+opts = [f"--pdb=outputs/{path}_0.pdb",
+        f"--loc=outputs/{path}",
+        f"--contig={contigs_str}",
+        f"--copies={copies}",
+        f"--num_seqs={num_seqs}",
+        f"--num_recycles={num_recycles}",
+        f"--rm_aa={rm_aa}",
+        f"--mpnn_sampling_temp={mpnn_sampling_temp}",
+        f"--num_designs={num_designs}"]
+if initial_guess: opts.append("--initial_guess")
+if use_multimer: opts.append("--use_multimer")
+opts = ' '.join(opts)
+!python colabdesign/rf/designability_test.py {opts}
+
+#@title Display best result
+import py3Dmol
+def plot_pdb(num = "best"):
+  if num == "best":
+    with open(f"outputs/{path}/best.pdb","r") as f:
+      # REMARK 001 design {m} N {n} RMSD {rmsd}
+      info = f.readline().strip('\n').split()
+    num = info[3]
+  hbondCutoff = 4.0
+  view = py3Dmol.view(js='https://3dmol.org/build/3Dmol.js')
+  pdb_str = open(f"outputs/{path}_{num}.pdb",'r').read()
+  view.addModel(pdb_str,'pdb',{'hbondCutoff':hbondCutoff})
+  pdb_str = open(f"outputs/{path}/best_design{num}.pdb",'r').read()
+  view.addModel(pdb_str,'pdb',{'hbondCutoff':hbondCutoff})
+
+  view.setStyle({"model":0},{'cartoon':{}}) #: {'colorscheme': {'prop':'b','gradient': 'roygb','min':0,'max':100}}})
+  view.setStyle({"model":1},{'cartoon':{'colorscheme': {'prop':'b','gradient': 'roygb','min':0,'max':100}}})
+  view.zoomTo()
+  view.show()
+
+if num_designs > 1:
+  def on_change(change):
+    if change['name'] == 'value':
+      with output:
+        output.clear_output(wait=True)
+        plot_pdb(change['new'])
+  dropdown = widgets.Dropdown(
+    options=["best"] + [str(k) for k in range(num_designs)],
+    value="best",
+    description='design:',
+  )
+  dropdown.observe(on_change)
+  output = widgets.Output()
+  display(widgets.VBox([dropdown, output]))
+  with output:
+    plot_pdb(dropdown.value)
+else:
+  plot_pdb()

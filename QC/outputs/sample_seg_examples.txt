@@ -1,0 +1,57 @@
+======================================================================
+SEG 掩蔽前后对比示例
+作者: Kuroneko
+日期: 2025.10.04
+======================================================================
+
+说明:
+  - SEG 算法用于检测并掩蔽蛋白序列中的低复杂度区域
+  - 低复杂度区域通常富含某种氨基酸（如 poly-A, proline-rich）
+  - 掩蔽字符：'x'（小写）表示低复杂度位置
+  - 本实现为简化版 SEG，检测滑动窗口内单一氨基酸高频区域
+
+示例 1: sp|P69905|HBA_HUMAN
+----------------------------------------------------------------------
+描述: Hemoglobin subunit alpha OS=Homo sapiens OX=9606 GN=HBA1 PE=1 SV=2
+长度: 142 aa
+
+原始序列（前100个残基）:
+MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFK
+
+掩蔽后序列（前100个残基）:
+MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFK
+
+掩蔽统计: 0/142 位置 (0.0%)
+
+======================================================================
+
+示例 2: sp|P68871|HBB_HUMAN
+----------------------------------------------------------------------
+描述: Hemoglobin subunit beta OS=Homo sapiens OX=9606 GN=HBB PE=1 SV=2
+长度: 147 aa
+
+原始序列（前100个残基）:
+MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVD
+
+掩蔽后序列（前100个残基）:
+MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVD
+
+掩蔽统计: 0/147 位置 (0.0%)
+
+======================================================================
+
+示例 3: sp|P69905|HBA_HUMAN_modified
+----------------------------------------------------------------------
+描述: Hemoglobin with special characters
+长度: 152 aa
+
+原始序列（前100个残基）:
+MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFK
+
+掩蔽后序列（前100个残基）:
+MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFK
+
+掩蔽统计: 0/152 位置 (0.0%)
+
+======================================================================
+

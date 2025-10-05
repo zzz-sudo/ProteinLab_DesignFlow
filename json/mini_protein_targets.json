@@ -1,0 +1,183 @@
+{
+  "project_name": "mini_protein_design_targets",
+  "description": "实际的小蛋白设计目标，基于已知功能域",
+  "author": "Kuroneko",
+  "date": "2025.9.30",
+  "design_targets": [
+    {
+      "target_id": "zinc_finger_design",
+      "name": "经典锌指结构域",
+      "description": "设计能够结合特定DNA序列的锌指蛋白",
+      "target_length": 30,
+      "secondary_structure": "beta-beta-alpha",
+      "key_residues": {
+        "zinc_coordinating": [3, 6, 23, 26],
+        "dna_contacting": [10, 13, 17, 20]
+      },
+      "constraints": {
+        "fixed_positions": [3, 6, 23, 26],
+        "required_residues": {"3": "C", "6": "C", "23": "H", "26": "H"},
+        "forbidden_residues": ["P"],
+        "target_motifs": ["CXXCXXXXXXXXXXXXHXXH"]
+      },
+      "reference_sequence": "FQCDICGRKFAQSSELRHSNRTHK",
+      "reference_pdb": "1ZAA",
+      "success_criteria": {
+        "plddt_threshold": 70.0,
+        "rosetta_score_max": -50.0,
+        "zinc_coordination_distance": 2.5
+      }
+    },
+    {
+      "target_id": "ww_domain_design", 
+      "name": "WW结构域变体",
+      "description": "设计能够识别脯氨酸富集序列的WW域",
+      "target_length": 38,
+      "secondary_structure": "beta-turn-beta-turn-beta",
+      "key_residues": {
+        "binding_groove": [9, 11, 26, 28],
+        "structural_core": [6, 15, 22, 33]
+      },
+      "constraints": {
+        "fixed_positions": [9, 11, 26, 28],
+        "required_residues": {"9": "W", "26": "W"},
+        "forbidden_residues": ["C"],
+        "hydrophobic_core": [6, 15, 22, 33]
+      },
+      "reference_sequence": "KLPPGWEKRMSRSSGRVYYFNHITNASQFERPSG",
+      "reference_pdb": "1PIN",
+      "success_criteria": {
+        "plddt_threshold": 75.0,
+        "rosetta_score_max": -60.0,
+        "binding_affinity_target": "PPXY_motif"
+      }
+    },
+    {
+      "target_id": "coiled_coil_design",
+      "name": "双链卷曲螺旋",
+      "description": "设计稳定的同源二聚体卷曲螺旋",
+      "target_length": 35,
+      "secondary_structure": "alpha-helix",
+      "key_residues": {
+        "heptad_a_positions": [1, 8, 15, 22, 29],
+        "heptad_d_positions": [4, 11, 18, 25, 32],
+        "heptad_e_positions": [5, 12, 19, 26, 33],
+        "heptad_g_positions": [7, 14, 21, 28, 35]
+      },
+      "constraints": {
+        "hydrophobic_core": [1, 4, 8, 11, 15, 18, 22, 25, 29, 32],
+        "electrostatic_pairs": [[5, 12], [19, 26]],
+        "required_residues": {
+          "1": "L", "4": "E", "8": "L", "11": "K", 
+          "15": "L", "18": "E", "22": "L", "25": "K"
+        },
+        "forbidden_residues": ["P", "G", "C"]
+      },
+      "reference_sequence": "MKQLEDKVEELLSKNYHLENEVARLKKLVGER",
+      "reference_pdb": "2ZTA",
+      "success_criteria": {
+        "plddt_threshold": 80.0,
+        "rosetta_score_max": -70.0,
+        "oligomerization_state": "dimer",
+        "thermal_stability_tm": 60.0
+      }
+    },
+    {
+      "target_id": "enzyme_active_site",
+      "name": "简化酶活性位点",
+      "description": "设计包含催化三联体的迷你酶",
+      "target_length": 65,
+      "secondary_structure": "beta-alpha-beta-alpha-beta",
+      "key_residues": {
+        "catalytic_triad": [15, 42, 58],
+        "substrate_binding": [12, 18, 39, 45, 55, 61],
+        "structural_support": [8, 25, 35, 50]
+      },
+      "constraints": {
+        "fixed_positions": [15, 42, 58],
+        "required_residues": {"15": "S", "42": "H", "58": "D"},
+        "active_site_geometry": {
+          "ser15_his42_distance": 3.5,
+          "his42_asp58_distance": 3.0,
+          "catalytic_angle": 105.0
+        },
+        "forbidden_residues": ["C", "M"]
+      },
+      "reference_sequence": "YVEFLTYDLQGKYVQRGAKGFIPKNYIEMKQKNGWVVNLTEFAAMRYARRLSKIKG",
+      "reference_pdb": "1SBT",
+      "success_criteria": {
+        "plddt_threshold": 70.0,
+        "rosetta_score_max": -80.0,
+        "active_site_rmsd": 1.5,
+        "enzymatic_activity": "detectable"
+      }
+    },
+    {
+      "target_id": "membrane_protein_helix",
+      "name": "单次跨膜螺旋",
+      "description": "设计稳定的跨膜alpha螺旋结构",
+      "target_length": 45,
+      "secondary_structure": "alpha-helix",
+      "key_residues": {
+        "transmembrane_core": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35],
+        "extracellular_domain": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+        "intracellular_domain": [36, 37, 38, 39, 40, 41, 42, 43, 44, 45]
+      },
+      "constraints": {
+        "hydrophobic_transmembrane": [10, 11, 14, 15, 18, 19, 22, 23, 26, 27, 30, 31, 34, 35],
+        "polar_termini": [1, 2, 3, 4, 43, 44, 45],
+        "required_residues": {"20": "G", "25": "G"},
+        "forbidden_residues": ["P", "E", "D", "K", "R"],
+        "hydrophobicity_window": {
+          "region": [10, 35],
+          "min_hydrophobicity": 0.5
+        }
+      },
+      "reference_sequence": "MKLPPGWEKRMSRSSGRVYYFNHITNASQFERPSGKLTVLGAI",
+      "success_criteria": {
+        "plddt_threshold": 75.0,
+        "membrane_insertion_score": 0.8,
+        "topology_prediction": "single_pass"
+      }
+    }
+  ],
+  "general_parameters": {
+    "temperature_range": [0.05, 0.2],
+    "num_sequences_per_target": 100,
+    "evaluation_criteria": {
+      "primary": ["plddt", "rosetta_score", "structural_validity"],
+      "secondary": ["sequence_diversity", "functional_metrics"],
+      "filters": {
+        "min_plddt": 60.0,
+        "max_rosetta_score": -40.0,
+        "sequence_similarity_cutoff": 0.8
+      }
+    }
+  },
+  "experimental_validation": {
+    "synthesis_priorities": ["zinc_finger_design", "ww_domain_design"],
+    "assays": {
+      "structural": ["CD_spectroscopy", "NMR", "limited_proteolysis"],
+      "functional": ["DNA_binding", "protein_interaction", "enzymatic_activity"],
+      "stability": ["thermal_denaturation", "chemical_denaturation", "pH_stability"]
+    },
+    "success_thresholds": {
+      "folding_yield": 70.0,
+      "thermal_stability": 50.0,
+      "functional_activity": 10.0
+    }
+  },
+  "computational_resources": {
+    "estimated_runtime": {
+      "backbone_generation": "2-4 hours",
+      "sequence_design": "4-8 hours", 
+      "structure_prediction": "6-12 hours",
+      "scoring_evaluation": "2-4 hours"
+    },
+    "memory_requirements": {
+      "minimum": "16 GB RAM",
+      "recommended": "32 GB RAM",
+      "gpu_memory": "8 GB VRAM"
+    }
+  }
+}

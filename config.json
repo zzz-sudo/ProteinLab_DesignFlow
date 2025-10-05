@@ -1,0 +1,1388 @@
+{
+  "project_name": "de_novo_protein_design",
+  "author": "Kuroneko",
+  "version": "1.0.0",
+  "created_date": "2025.9.30",
+  "last_updated": "2025-10-04 00:00:22",
+  "current_iteration": 1,
+  "max_iterations": 10,
+  "parameters": {
+    "num_backbones": 50,
+    "num_sequences_per_backbone": 50,
+    "esmfold_pLDDT_threshold": 60.0,
+    "colabfold_use_online_msa": "yes",
+    "max_md_ns": 10,
+    "rosetta_relax_rounds": 2,
+    "target_length": 100,
+    "rfdiffusion_seed": 42,
+    "esm_if_num_sequences": 10,
+    "unified_prediction_max_sequences": 4000,
+    "unified_prediction_thresholds": {
+      "plddt": 0.7,
+      "ptm": 0.6,
+      "pae": 5.0
+    },
+    "simple_colab_max_sequences": 4000,
+    "simple_colab_thresholds": {
+      "plddt": 0.7,
+      "ptm": 0.6,
+      "pae": 5.0
+    },
+    "last_rfdiffusion_params": {
+      "name": "protein_backbone",
+      "contigs": "100",
+      "pdb": "",
+      "num_designs": 20,
+      "iterations": 50,
+      "symmetry": "none",
+      "order": 1,
+      "hotspot": "",
+      "chains": "",
+      "add_potential": true,
+      "visual": "image"
+    },
+    "last_generation": "2025-10-03 03:44:25"
+  },
+  "model_versions": {},
+  "iteration_history": [
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-01 02:40:59",
+      "parameters": {
+        "num_backbones": 200,
+        "target_length": 100,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 59.168612,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-01 03:04:30",
+      "parameters": {
+        "num_backbones": 200,
+        "target_length": 100,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 33.942479,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-01 03:07:11",
+      "parameters": {
+        "num_backbones": 200,
+        "target_length": 100,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 20.16588,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-01 03:15:05",
+      "parameters": {
+        "num_backbones": 200,
+        "target_length": 100,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 14.822637,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-01 03:26:37",
+      "parameters": {
+        "num_backbones": 200,
+        "target_length": 100,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 14.983468,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-01 07:09:55",
+      "parameters": {
+        "num_backbones": 200,
+        "target_length": 100,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 33.821842,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-01 07:11:07",
+      "parameters": {
+        "num_backbones": 200,
+        "target_length": 100,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 14.595528,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-01 07:13:01",
+      "parameters": {
+        "num_backbones": 200,
+        "target_length": 100,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": true,
+        "backbones_generated": 200,
+        "execution_time": 19.348652,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step3b_esm_if",
+      "timestamp": "2025-10-01 07:43:03",
+      "parameters": {
+        "num_sequences": 20,
+        "max_backbones": 5,
+        "iteration": 1,
+        "seed": 42
+      },
+      "results": {
+        "backbones_processed": 5,
+        "total_sequences": 100,
+        "execution_time": 412.997341
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step3b_esm_if",
+      "timestamp": "2025-10-01 07:52:36",
+      "parameters": {
+        "num_sequences": 20,
+        "max_backbones": 200,
+        "iteration": 1,
+        "seed": 42
+      },
+      "results": {
+        "backbones_processed": 200,
+        "total_sequences": 4000,
+        "execution_time": 392.438729
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step3d_unified_prediction",
+      "timestamp": "2025-10-01 18:00:05",
+      "parameters": {
+        "max_sequences": 4000,
+        "num_recycles": 1,
+        "plddt_threshold": 0.7,
+        "ptm_threshold": 0.6,
+        "pae_threshold": 5.0,
+        "iteration": 1
+      },
+      "results": {
+        "backbone_count": 200,
+        "total_sequences": 4000,
+        "colab_file": "F:\\Project\\蛋白质设计\\Union3DToPredict\\iter1\\unified_prediction_colab.py"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step3e_colab_integration",
+      "timestamp": "2025-10-01 18:01:07",
+      "parameters": {
+        "max_sequences": 4000,
+        "num_recycles": 1,
+        "plddt_threshold": 0.7,
+        "ptm_threshold": 0.6,
+        "pae_threshold": 5.0,
+        "iteration": 1
+      },
+      "results": {
+        "colab_file": "F:\\Project\\蛋白质设计\\Union3DToPredict\\iter1\\simple_prediction_colab.py"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step3d_unified_prediction",
+      "timestamp": "2025-10-01 18:13:48",
+      "parameters": {
+        "max_sequences": 4000,
+        "num_recycles": 1,
+        "plddt_threshold": 0.7,
+        "ptm_threshold": 0.6,
+        "pae_threshold": 5.0,
+        "iteration": 1
+      },
+      "results": {
+        "backbone_count": 200,
+        "total_sequences": 5600,
+        "colab_file": "F:\\Project\\蛋白质设计\\Union3DToPredict\\iter1\\unified_prediction_colab.py"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step4_esmfold_prediction",
+      "timestamp": "2025-10-02 01:58:04",
+      "parameters": {
+        "max_sequences": 5600,
+        "plddt_threshold": 60.0,
+        "batch_size": 1,
+        "use_gpu": false,
+        "model_name": "facebook/esmfold_v1"
+      },
+      "results": {
+        "total_requested": 5600,
+        "total_predicted": 5600,
+        "successful_predictions": 0,
+        "passed_threshold": 0,
+        "failed_threshold": 5600,
+        "mean_plddt_all": 0.0
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step4_esmfold_prediction",
+      "timestamp": "2025-10-02 09:25:46",
+      "parameters": {
+        "max_sequences": 1,
+        "plddt_threshold": 70.0,
+        "batch_size": 1,
+        "use_gpu": false,
+        "model_name": "facebook/esmfold_v1"
+      },
+      "results": {
+        "total_requested": 1,
+        "total_predicted": 1,
+        "successful_predictions": 0,
+        "passed_threshold": 0,
+        "failed_threshold": 1,
+        "mean_plddt_all": 0.0
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step4_esmfold_prediction",
+      "timestamp": "2025-10-02 09:56:13",
+      "parameters": {
+        "max_sequences": 1,
+        "plddt_threshold": 70.0,
+        "batch_size": 1,
+        "use_gpu": false,
+        "model_name": "facebook/esmfold_v1"
+      },
+      "results": {
+        "total_requested": 1,
+        "total_predicted": 1,
+        "successful_predictions": 0,
+        "passed_threshold": 0,
+        "failed_threshold": 1,
+        "mean_plddt_all": 0.0
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step4_esmfold_prediction",
+      "timestamp": "2025-10-02 10:00:00",
+      "parameters": {
+        "max_sequences": 10,
+        "plddt_threshold": 60.0,
+        "batch_size": 4,
+        "use_gpu": true,
+        "model_name": "facebook/esmfold_v1"
+      },
+      "results": {
+        "total_requested": 10,
+        "total_predicted": 10,
+        "successful_predictions": 0,
+        "passed_threshold": 0,
+        "failed_threshold": 10,
+        "mean_plddt_all": 0.0
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-02 23:37:38",
+      "parameters": {
+        "num_backbones": 200,
+        "target_length": 100,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 36.286506,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-02 23:47:12",
+      "parameters": {
+        "num_backbones": 200,
+        "target_length": 100,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": true,
+        "backbones_generated": 200,
+        "execution_time": 30.657457,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-02 23:51:58",
+      "parameters": {
+        "num_backbones": 200,
+        "target_length": 100,
+        "length_range": null,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 33.833928,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-03 00:00:44",
+      "parameters": {
+        "num_backbones": 200,
+        "target_length": 100,
+        "length_range": null,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 21.684158,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-03 00:05:22",
+      "parameters": {
+        "num_backbones": 200,
+        "target_length": 100,
+        "length_range": null,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 13.68907,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-03 00:15:25",
+      "parameters": {
+        "num_backbones": 10,
+        "target_length": 100,
+        "length_range": null,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 41.265289,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-03 00:17:05",
+      "parameters": {
+        "num_backbones": 10,
+        "target_length": 100,
+        "length_range": [
+          95,
+          105
+        ],
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 37.471427,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-03 00:19:21",
+      "parameters": {
+        "num_backbones": 100,
+        "target_length": 100,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 19.705519,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-03 00:20:31",
+      "parameters": {
+        "num_backbones": 100,
+        "target_length": 100,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 13.074295,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-03 00:20:54",
+      "parameters": {
+        "num_backbones": 5,
+        "target_length": 100,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 19.906777,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-03 00:26:57",
+      "parameters": {
+        "num_backbones": 5,
+        "target_length": 100,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 11.398243,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-03 00:28:03",
+      "parameters": {
+        "num_backbones": 5,
+        "target_length": 100,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 8.325596,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-03 00:29:47",
+      "parameters": {
+        "num_backbones": 5,
+        "target_length": 100,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 12.765904,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-03 00:35:23",
+      "parameters": {
+        "num_backbones": 5,
+        "target_length": 100,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 14.818007,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-03 00:53:04",
+      "parameters": {
+        "num_backbones": 10,
+        "target_length": 100,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 32.123154,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-03 00:55:24",
+      "parameters": {
+        "num_backbones": 10,
+        "target_length": 100,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 12.945841,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-03 01:06:59",
+      "parameters": {
+        "num_backbones": 10,
+        "target_length": 100,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 10.093921,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-03 01:11:29",
+      "parameters": {
+        "num_backbones": 50,
+        "target_length": 100,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 11.94046,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-03 01:44:27",
+      "parameters": {
+        "num_backbones": 50,
+        "target_length": 100,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 16.046555,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-03 01:45:42",
+      "parameters": {
+        "num_backbones": 50,
+        "target_length": 100,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 11.248089,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-03 01:48:39",
+      "parameters": {
+        "num_backbones": 50,
+        "target_length": 100,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 41.234803,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step2_rfdiffusion",
+      "timestamp": "2025-10-03 02:08:27",
+      "parameters": {
+        "num_backbones": 50,
+        "target_length": 100,
+        "generation_mode": "unconditional",
+        "seed": 42,
+        "iteration": 1
+      },
+      "results": {
+        "success": false,
+        "backbones_generated": 0,
+        "execution_time": 30.159728,
+        "run_mode": "colab"
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step3b_esm_if",
+      "timestamp": "2025-10-03 04:58:18",
+      "parameters": {
+        "num_sequences": 10,
+        "max_backbones": 20,
+        "iteration": 1,
+        "seed": 42
+      },
+      "results": {
+        "backbones_processed": 20,
+        "total_sequences": 200,
+        "execution_time": 51.586567
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step6_rosetta_scoring",
+      "timestamp": "2025-10-03 23:45:42",
+      "parameters": {
+        "scoring_method": "alternative",
+        "relax_rounds": 2,
+        "max_structures": 360,
+        "iteration": 1
+      },
+      "results": {
+        "structures_processed": 360,
+        "scoring_methods": "alternative",
+        "rosetta_available": false,
+        "execution_time": 17.86499
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step6_rosetta_scoring",
+      "timestamp": "2025-10-03 23:54:23",
+      "parameters": {
+        "scoring_method": "alternative",
+        "relax_rounds": 2,
+        "max_structures": 360,
+        "iteration": 1
+      },
+      "results": {
+        "structures_processed": 360,
+        "scoring_methods": "alternative",
+        "rosetta_available": false,
+        "execution_time": 22.363569
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step6_rosetta_scoring",
+      "timestamp": "2025-10-03 23:58:02",
+      "parameters": {
+        "scoring_method": "alternative",
+        "relax_rounds": 2,
+        "max_structures": 360,
+        "iteration": 1
+      },
+      "results": {
+        "structures_processed": 360,
+        "scoring_methods": "alternative",
+        "rosetta_available": false,
+        "execution_time": 88.177034
+      }
+    },
+    {
+      "iteration": 1,
+      "step": "step7_md_stability",
+      "timestamp": "2025-10-04 00:00:22",
+      "parameters": {
+        "max_md_ns": 10,
+        "md_method": "simple",
+        "temperature": 300,
+        "top_candidates": 20,
+        "iteration": 1
+      },
+      "results": {
+        "candidates_processed": 20,
+        "md_method": "simple",
+        "successful_simulations": 0,
+        "execution_time": 40.373467
+      }
+    }
+  ],
+  "environment": {
+    "python_version": "3.13.5 (兼容)",
+    "gpu_available": true,
+    "check_date": "2025-10-03 02:06:01",
+    "status": "ready"
+  },
+  "step5_records": [
+    {
+      "timestamp": "2025-10-03 05:27:41",
+      "params": {
+        "sequence_source": 1,
+        "source_name": "ProteinMPNN",
+        "num_sequences": 10,
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 5
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\proteinmpnn_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 05:46:24",
+      "params": {
+        "sequence_source": 1,
+        "source_name": "ProteinMPNN",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 4
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\proteinmpnn_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 05:50:52",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 5
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 06:10:55",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 5
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 06:13:44",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 5
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 06:17:48",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 5
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 06:19:31",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 5
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 06:21:26",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 5
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 06:25:42",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 5
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 06:27:21",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 1
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 06:30:10",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 5
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 06:35:27",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 1
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 06:38:46",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 1
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 06:43:39",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 5
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 06:46:06",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 5
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 06:48:09",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 5
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 06:49:59",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 5
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 06:55:00",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 5
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 06:57:27",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 1
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 07:02:58",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 5
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 07:04:57",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 5
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 07:17:22",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 1
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 07:26:09",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 5
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 07:30:48",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 5
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 07:50:04",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 5
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 08:25:19",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 5
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 08:28:20",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 5
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 08:30:33",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 1
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    },
+    {
+      "timestamp": "2025-10-03 08:31:34",
+      "params": {
+        "sequence_source": 3,
+        "source_name": "ProteinMPNN + ESM-IF",
+        "num_sequences": "用户自定义",
+        "jobname": "highprecision_prediction",
+        "num_relax": 1,
+        "template_mode": "none",
+        "msa_mode": "mmseqs2",
+        "save_to_drive": false,
+        "display_images": true,
+        "rank_num": 1
+      },
+      "sequences_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\esm_if_sequences.json",
+      "colab_file": "F:\\Project\\蛋白质设计\\designs\\iter1\\alphafold_highprecision_prediction.py",
+      "iteration": 1
+    }
+  ],
+  "last_step5_params": {
+    "sequence_source": 3,
+    "source_name": "ProteinMPNN + ESM-IF",
+    "num_sequences": "用户自定义",
+    "jobname": "highprecision_prediction",
+    "num_relax": 1,
+    "template_mode": "none",
+    "msa_mode": "mmseqs2",
+    "save_to_drive": false,
+    "display_images": true,
+    "rank_num": 1
+  }
+}

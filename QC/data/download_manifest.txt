@@ -1,0 +1,31 @@
+======================================================================
+公开数据下载清单
+生成时间: 2025-10-04 06:56:00
+作者: Kuroneko
+日期: 2025.10.04
+======================================================================
+
+数据类型: UniProt Protein
+Accession/ID: P69905
+来源URL: https://rest.uniprot.org/uniprotkb/P69905.fasta
+本地文件: F:\Project\QC\data\example_public_uniprot.fasta
+下载时间: 2025-10-04 06:55:51
+状态: 成功
+----------------------------------------------------------------------
+
+数据类型: NCBI GenBank
+Accession/ID: NM_000518.5
+来源URL: https://www.ncbi.nlm.nih.gov/nuccore/NM_000518.5
+本地文件: F:\Project\QC\data\example_public_genbank.gb
+下载时间: 2025-10-04 06:55:57
+状态: 成功
+----------------------------------------------------------------------
+
+数据类型: RCSB PDB
+Accession/ID: 1CRN
+来源URL: https://files.rcsb.org/download/1CRN.pdb
+本地文件: F:\Project\QC\data\example_public_structure.pdb
+下载时间: 2025-10-04 06:56:00
+状态: 成功
+----------------------------------------------------------------------
+

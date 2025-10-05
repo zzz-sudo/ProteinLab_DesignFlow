@@ -1,0 +1,80 @@
+# 排除models文件夹
+models/
+
+# Python相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE相关
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+temp/
+tmp/
+
+# 输出文件（可选，根据需要调整）
+# output/
+# scores/
+# designs/
+# backbones/
+
+# 大文件
+*.pdb
+*.cif
+*.sdf
+*.mol2
+*.zip
+*.tar.gz
+*.rar
+
+# 检查点文件
+*.checkpoint
+*.ckpt
+
+# 缓存文件
+.cache/
+cache/
+
+# 配置文件中的敏感信息（如果有的话）
+# config_local.json
+# secrets.json

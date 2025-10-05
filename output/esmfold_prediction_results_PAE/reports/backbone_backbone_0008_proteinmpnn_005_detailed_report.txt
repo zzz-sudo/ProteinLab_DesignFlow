@@ -1,0 +1,50 @@
+================================================================================
+序列 PAE 分析详细报告: backbone_backbone_0008_proteinmpnn_005
+================================================================================
+
+【质量评估】
+  质量等级: 差
+  质量说明: 结构预测质量很差，大部分区域不可靠，不建议使用该预测结果
+
+【质量指标】
+  avg_pae: 22.95
+  avg_local_pae: 4.74
+  short_range_pae: 4.78
+  medium_range_pae: 14.79
+  long_range_pae: 27.80
+  high_confidence_%: 6.19
+  medium_confidence_%: 6.65
+  low_confidence_%: 7.03
+  very_low_confidence_%: 80.13
+  min_pae: 0.00
+  max_pae: 30.43
+  std_pae: 8.60
+
+【结构域分析】(共 1 个)
+  域 1: 残基 1-90, 平均PAE=7.83Å, 类型=structured_domain
+
+【功能位点分析】(显示前10个最重要的位点)
+  位点 1: 残基 6, 局部PAE=5.08Å, 重要性=medium, 类型=local_structure
+  位点 2: 残基 7, 局部PAE=5.21Å, 重要性=medium, 类型=local_structure
+  位点 3: 残基 5, 局部PAE=5.33Å, 重要性=medium, 类型=local_structure
+  位点 4: 残基 4, 局部PAE=5.48Å, 重要性=medium, 类型=local_structure
+  位点 5: 残基 8, 局部PAE=5.50Å, 重要性=medium, 类型=local_structure
+  位点 6: 残基 9, 局部PAE=5.72Å, 重要性=medium, 类型=local_structure
+  位点 7: 残基 3, 局部PAE=6.27Å, 重要性=medium, 类型=local_structure
+  位点 8: 残基 10, 局部PAE=6.45Å, 重要性=medium, 类型=local_structure
+  位点 9: 残基 11, 局部PAE=6.52Å, 重要性=medium, 类型=local_structure
+  位点 10: 残基 12, 局部PAE=6.70Å, 重要性=medium, 类型=local_structure
+
+【残基间相互作用】(显示前10个最强的相互作用)
+  相互作用 1: 残基 9 <-> 14, 距离=5残基, PAE=4.13Å, 置信度=high
+  相互作用 2: 残基 11 <-> 16, 距离=5残基, PAE=4.95Å, 置信度=high
+  相互作用 3: 残基 8 <-> 13, 距离=5残基, PAE=5.01Å, 置信度=medium
+  相互作用 4: 残基 10 <-> 15, 距离=5残基, PAE=5.04Å, 置信度=medium
+  相互作用 5: 残基 12 <-> 17, 距离=5残基, PAE=5.17Å, 置信度=medium
+  相互作用 6: 残基 6 <-> 11, 距离=5残基, PAE=5.21Å, 置信度=medium
+  相互作用 7: 残基 7 <-> 12, 距离=5残基, PAE=5.28Å, 置信度=medium
+  相互作用 8: 残基 5 <-> 10, 距离=5残基, PAE=5.40Å, 置信度=medium
+  相互作用 9: 残基 13 <-> 18, 距离=5残基, PAE=5.44Å, 置信度=medium
+  相互作用 10: 残基 66 <-> 71, 距离=5残基, PAE=5.44Å, 置信度=medium
+
+================================================================================

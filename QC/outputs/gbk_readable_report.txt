@@ -1,0 +1,243 @@
+======================================================================
+GenBank 注释文件易读报告
+作者: Kuroneko
+日期: 2025.10.04
+======================================================================
+
+基本信息
+----------------------------------------------------------------------
+记录ID: NM_000518.5
+描述: Homo sapiens hemoglobin subunit beta (HBB), mRNA
+总特征数: 48
+
+GENE 特征 (1 个)
+----------------------------------------------------------------------
+
+[1] 位置: 0-628 (链: 1)
+    基因: HBB
+    注释: hemoglobin subunit beta
+
+======================================================================
+
+CDS 特征 (1 个)
+----------------------------------------------------------------------
+
+[1] 位置: 50-494 (链: 1)
+    基因: HBB
+    产物: hemoglobin subunit beta
+    蛋白ID: NP_000509.1
+    注释: beta globin chain; hemoglobin, beta; hemoglobin beta subunit; Hb Monza protein
+
+======================================================================
+
+EXON 特征 (3 个)
+----------------------------------------------------------------------
+
+[1] 位置: 0-142 (链: 1)
+    基因: HBB
+
+[2] 位置: 142-365 (链: 1)
+    基因: HBB
+
+[3] 位置: 365-628 (链: 1)
+    基因: HBB
+
+======================================================================
+
+SOURCE 特征 (1 个)
+----------------------------------------------------------------------
+
+[1] 位置: 0-628 (链: 1)
+
+======================================================================
+
+MISC_FEATURE 特征 (38 个)
+----------------------------------------------------------------------
+
+[1] 位置: 29-32 (链: 1)
+    基因: HBB
+    注释: upstream in-frame stop codon
+
+[2] 位置: 53-56 (链: 1)
+    基因: HBB
+    注释: N-acetylvaline. /evidence=ECO:0000250|UniProtKB:P02086; propagated from UniProtKB/Swiss-Prot (P68871...
+
+[3] 位置: 53-56 (链: 1)
+    基因: HBB
+    注释: N-linked (Glc) (glycation) valine, in Hb A1c. /evidence=ECO:0000269|PubMed:635569; propagated from U...
+
+[4] 位置: 71-77 (链: 1)
+    基因: HBB
+    注释: (Microbial infection) Cleavage, by N.americanus apr-2. /evidence=ECO:0000269|PubMed:12552433; propag...
+
+[5] 位置: 74-77 (链: 1)
+    基因: HBB
+    注释: N-linked (Glc) (glycation) lysine. /evidence=ECO:0000269|PubMed:7358733; propagated from UniProtKB/S...
+
+[6] 位置: 77-80 (链: 1)
+    基因: HBB
+    注释: Phosphoserine. /evidence=ECO:0007744|PubMed:24275569; propagated from UniProtKB/Swiss-Prot (P68871.2...
+
+[7] 位置: 86-89 (链: 1)
+    基因: HBB
+    注释: Phosphothreonine. /evidence=ECO:0007744|PubMed:24275569; propagated from UniProtKB/Swiss-Prot (P6887...
+
+[8] 位置: 101-104 (链: 1)
+    基因: HBB
+    注释: N-linked (Glc) (glycation) lysine. /evidence=ECO:0000269|PubMed:7358733; propagated from UniProtKB/S...
+
+[9] 位置: 125-131 (链: 1)
+    基因: HBB
+    注释: (Microbial infection) Cleavage, by N.americanus apr-2. /evidence=ECO:0000269|PubMed:12552433; propag...
+
+[10] 位置: 137-143 (链: 1)
+    基因: HBB
+    注释: (Microbial infection) Cleavage, by N.americanus apr-2. /evidence=ECO:0000269|PubMed:12552433; propag...
+
+[11] 位置: 155-161 (链: 1)
+    基因: HBB
+    注释: (Microbial infection) Cleavage, by N.americanus apr-2. /evidence=ECO:0000269|PubMed:12552433; propag...
+
+[12] 位置: 161-167 (链: 1)
+    基因: HBB
+    注释: (Microbial infection) Cleavage, by N.americanus apr-2. /evidence=ECO:0000269|PubMed:12552433; propag...
+
+[13] 位置: 182-185 (链: 1)
+    基因: HBB
+    注释: Phosphoserine. /evidence=ECO:0007744|PubMed:24275569; propagated from UniProtKB/Swiss-Prot (P68871.2...
+
+[14] 位置: 185-191 (链: 1)
+    基因: HBB
+    注释: (Microbial infection) Cleavage, by N.americanus apr-2. /evidence=ECO:0000269|PubMed:12552433; propag...
+
+[15] 位置: 200-203 (链: 1)
+    基因: HBB
+    注释: Phosphothreonine. /evidence=ECO:0007744|PubMed:24275569; propagated from UniProtKB/Swiss-Prot (P6887...
+
+[16] 位置: 206-212 (链: 1)
+    基因: HBB
+    注释: (Microbial infection) Cleavage, by N.americanus apr-2. /evidence=ECO:0000269|PubMed:12552433; propag...
+
+[17] 位置: 218-224 (链: 1)
+    基因: HBB
+    注释: (Microbial infection) Cleavage, by N.americanus apr-2. /evidence=ECO:0000269|PubMed:12552433; propag...
+
+[18] 位置: 227-230 (链: 1)
+    基因: HBB
+    注释: N6-acetyllysine. /evidence=ECO:0000269|PubMed:4531009; propagated from UniProtKB/Swiss-Prot (P68871....
+
+[19] 位置: 227-230 (链: 1)
+    基因: HBB
+    注释: Not glycated. /evidence=ECO:0000269|PubMed:7358733; propagated from UniProtKB/Swiss-Prot (P68871.2);...
+
+[20] 位置: 248-251 (链: 1)
+    基因: HBB
+    注释: N-linked (Glc) (glycation) lysine. /evidence=ECO:0000269|PubMed:7358733; propagated from UniProtKB/S...
+
+[21] 位置: 263-269 (链: 1)
+    基因: HBB
+    注释: (Microbial infection) Cleavage, by N.americanus apr-2. /evidence=ECO:0000269|PubMed:12552433; propag...
+
+[22] 位置: 272-278 (链: 1)
+    基因: HBB
+    注释: (Microbial infection) Cleavage, by N.americanus apr-2. /evidence=ECO:0000269|PubMed:12552433; propag...
+
+[23] 位置: 296-299 (链: 1)
+    基因: HBB
+    注释: N6-acetyllysine. /evidence=ECO:0000269|PubMed:4531009; propagated from UniProtKB/Swiss-Prot (P68871....
+
+[24] 位置: 296-299 (链: 1)
+    基因: HBB
+    注释: Not glycated. /evidence=ECO:0000269|PubMed:7358733; propagated from UniProtKB/Swiss-Prot (P68871.2);...
+
+[25] 位置: 302-308 (链: 1)
+    基因: HBB
+    注释: (Microbial infection) Cleavage, by N.americanus apr-2. /evidence=ECO:0000269|PubMed:12552433; propag...
+
+[26] 位置: 311-314 (链: 1)
+    基因: HBB
+    注释: Phosphothreonine. /evidence=ECO:0007744|PubMed:24275569; propagated from UniProtKB/Swiss-Prot (P6887...
+
+[27] 位置: 326-332 (链: 1)
+    基因: HBB
+    注释: (Microbial infection) Cleavage, by N.americanus apr-2. /evidence=ECO:0000269|PubMed:12552433; propag...
+
+[28] 位置: 335-338 (链: 1)
+    基因: HBB
+    注释: Not glycated. /evidence=ECO:0000269|PubMed:7358733; propagated from UniProtKB/Swiss-Prot (P68871.2);...
+
+[29] 位置: 362-368 (链: 1)
+    基因: HBB
+    注释: (Microbial infection) Cleavage, by N.americanus apr-2. /evidence=ECO:0000269|PubMed:12552433; propag...
+
+[30] 位置: 380-386 (链: 1)
+    基因: HBB
+    注释: (Microbial infection) Cleavage, by N.americanus apr-2. /evidence=ECO:0000269|PubMed:12552433; propag...
+
+[31] 位置: 407-413 (链: 1)
+    基因: HBB
+    注释: (Microbial infection) Cleavage, by N.americanus apr-2. /evidence=ECO:0000269|PubMed:12552433; propag...
+
+[32] 位置: 410-413 (链: 1)
+    基因: HBB
+    注释: N-linked (Glc) (glycation) lysine. /evidence=ECO:0000269|PubMed:7358733; propagated from UniProtKB/S...
+
+[33] 位置: 416-422 (链: 1)
+    基因: HBB
+    注释: (Microbial infection) Cleavage, by N.americanus apr-2. /evidence=ECO:0000269|PubMed:12552433; propag...
+
+[34] 位置: 434-440 (链: 1)
+    基因: HBB
+    注释: (Microbial infection) Cleavage, by N.americanus apr-2. /evidence=ECO:0000269|PubMed:12552433; propag...
+
+[35] 位置: 470-476 (链: 1)
+    基因: HBB
+    注释: (Microbial infection) Cleavage, by N.americanus apr-2. /evidence=ECO:0000269|PubMed:12552433; propag...
+
+[36] 位置: 482-488 (链: 1)
+    基因: HBB
+    注释: (Microbial infection) Cleavage, by N.americanus apr-2. /evidence=ECO:0000269|PubMed:12552433; propag...
+
+[37] 位置: 482-485 (链: 1)
+    基因: HBB
+    注释: N-linked (Glc) (glycation) lysine, alternate. /evidence=ECO:0000269|PubMed:7358733; propagated from ...
+
+[38] 位置: 482-485 (链: 1)
+    基因: HBB
+    注释: N6-acetyllysine, alternate. /evidence=ECO:0000269|PubMed:4531009; propagated from UniProtKB/Swiss-Pr...
+
+======================================================================
+
+MAT_PEPTIDE 特征 (2 个)
+----------------------------------------------------------------------
+
+[1] 位置: 146-176 (链: 1)
+    基因: HBB
+    产物: LVV-hemorphin-7. /id=PRO_0000296641
+    注释: propagated from UniProtKB/Swiss-Prot (P68871.2)
+
+[2] 位置: 146-167 (链: 1)
+    基因: HBB
+    产物: Spinorphin. /id=PRO_0000424226
+    注释: propagated from UniProtKB/Swiss-Prot (P68871.2)
+
+======================================================================
+
+REGULATORY 特征 (1 个)
+----------------------------------------------------------------------
+
+[1] 位置: 601-607 (链: 1)
+    基因: HBB
+    注释: hexamer: AATAAA
+
+======================================================================
+
+POLYA_SITE 特征 (1 个)
+----------------------------------------------------------------------
+
+[1] 位置: 627-628 (链: 1)
+    基因: HBB
+    注释: major polyA site
+
+======================================================================
+

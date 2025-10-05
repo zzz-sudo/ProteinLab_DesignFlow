@@ -1,0 +1,31 @@
+query_id,hit_id,hit_def,e_value,bit_score,identity,align_length,query_coverage,identity_percent,gaps
+sp|P69905|HBA_HUMAN,gb|AAX29522.1|,"hemoglobin alpha 2, partial [synthetic construct]",2.67e-97,287.345,142,142,100.0,100.0,0
+sp|P69905|HBA_HUMAN,ref|NP_000508.1|,hemoglobin subunit alpha [Homo sapiens] >ref|NP_000549.1| hemoglobin subunit alpha [Homo sapiens] >r,3.92e-97,286.96,142,142,100.0,100.0,0
+sp|P69905|HBA_HUMAN,pdb|3IA3|B,"Chain B, Hemoglobin subunit alpha [Homo sapiens] >pdb|3IA3|D Chain D, Hemoglobin subunit alpha [Homo",4.74e-97,286.96,142,142,100.0,100.0,0
+sp|P69905|HBA_HUMAN,gb|AKZ66543.1|,mutant hemoglobin alpha 2 globin chain [Homo sapiens],6.56e-97,286.189,141,142,100.0,99.3,0
+sp|P69905|HBA_HUMAN,gb|AXY55002.1|,mutant hemoglobin subunit alpha 2 [Homo sapiens],7.91e-97,286.189,141,142,100.0,99.3,0
+sp|P69905|HBA_HUMAN,gb|AAN04486.1|,hemoglobin alpha-2 [Homo sapiens],1.10e-96,285.804,141,142,100.0,99.3,0
+sp|P69905|HBA_HUMAN,gb|AAF72612.1|,alpha-2-globin [Homo sapiens],1.60e-96,285.419,141,142,100.0,99.3,0
+sp|P69905|HBA_HUMAN,tpe|SAI82135.1|,TPA: globin C1 [Homo sapiens] >tpe|SAI82136.1| TPA: globin C2 [Homo sapiens],1.69e-96,286.574,142,142,100.0,100.0,0
+sp|P69905|HBA_HUMAN,ref|XP_030858703.1|,hemoglobin subunit alpha [Gorilla gorilla gorilla],2.03e-96,285.034,141,142,100.0,99.3,0
+sp|P69905|HBA_HUMAN,gb|ABF56145.1|,hemoglobin alpha 1-2 hybrid [Homo sapiens],3.15e-96,284.648,141,142,100.0,99.3,0
+sp|P69905|HBA_HUMAN_short,gb|AAK15770.1|,"hemoglobin alpha 1 globin chain, partial [Homo sapiens]",5.06e-36,127.487,60,60,100.0,100.0,0
+sp|P69905|HBA_HUMAN_short,gb|AHA12099.1|,"mutant hemoglobin alpha 2 globin chain, partial [Homo sapiens] >gb|AHA12104.1| mutant hemoglobin alp",5.12e-36,127.487,60,60,100.0,100.0,0
+sp|P69905|HBA_HUMAN_short,gb|XIF27002.1|,"hemoglobin subunit alpha 1, partial [Homo sapiens]",5.40e-36,127.102,60,60,100.0,100.0,0
+sp|P69905|HBA_HUMAN_short,gb|AXY55002.1|,mutant hemoglobin subunit alpha 2 [Homo sapiens],6.19e-36,128.642,60,60,100.0,100.0,0
+sp|P69905|HBA_HUMAN_short,gb|AXY54999.1|,mutant hemoglobin subunit alpha 2 [Homo sapiens],6.28e-36,128.257,60,60,100.0,100.0,0
+sp|P69905|HBA_HUMAN_short,gb|AXY55000.1|,mutant hemoglobin subunit alpha 2 [Homo sapiens],6.28e-36,128.257,60,60,100.0,100.0,0
+sp|P69905|HBA_HUMAN_short,gb|ABF56145.1|,hemoglobin alpha 1-2 hybrid [Homo sapiens],6.33e-36,128.257,60,60,100.0,100.0,0
+sp|P69905|HBA_HUMAN_short,gb|AKZ66543.1|,mutant hemoglobin alpha 2 globin chain [Homo sapiens],6.54e-36,128.257,60,60,100.0,100.0,0
+sp|P69905|HBA_HUMAN_short,ref|NP_000508.1|,hemoglobin subunit alpha [Homo sapiens] >ref|NP_000549.1| hemoglobin subunit alpha [Homo sapiens] >r,6.61e-36,128.257,60,60,100.0,100.0,0
+sp|P69905|HBA_HUMAN_short,gb|AAX29522.1|,"hemoglobin alpha 2, partial [synthetic construct]",6.66e-36,128.257,60,60,100.0,100.0,0
+sp|P68871|HBB_HUMAN,gb|AAX37051.1|,"hemoglobin beta, partial [synthetic construct]",8.19e-103,301.597,147,147,100.0,100.0,0
+sp|P68871|HBB_HUMAN,gb|AAX29557.1|,"hemoglobin beta, partial [synthetic construct]",8.85e-103,301.597,147,147,100.0,100.0,0
+sp|P68871|HBB_HUMAN,ref|NP_000509.1|,hemoglobin subunit beta [Homo sapiens] >ref|XP_003819077.1| hemoglobin subunit beta [Pan paniscus] >,1.15e-102,301.212,147,147,100.0,100.0,0
+sp|P68871|HBB_HUMAN,ref|XP_018891709.1|,hemoglobin subunit beta [Gorilla gorilla gorilla] >sp|P02024.2| RecName: Full=Hemoglobin subunit bet,4.02e-102,300.056,146,147,100.0,99.3,0
+sp|P68871|HBB_HUMAN,gb|AAN84548.1|,beta globin chain variant [Homo sapiens],4.29e-102,299.671,146,147,100.0,99.3,0
+sp|P68871|HBB_HUMAN,gb|ACU56984.1|,beta-globin [Homo sapiens],4.29e-102,299.671,146,147,100.0,99.3,0
+sp|P68871|HBB_HUMAN,gb|AAZ39780.1|,beta globin [Homo sapiens] >gb|AAZ39781.1| beta globin [Homo sapiens] >gb|AAZ39782.1| beta globin [H,4.29e-102,299.671,146,147,100.0,99.3,0
+sp|P68871|HBB_HUMAN,gb|AAD19696.1|,hemoglobin beta chain [Homo sapiens],5.58e-102,299.671,146,147,100.0,99.3,0
+sp|P68871|HBB_HUMAN,gb|AKI70610.1|,"HBB, partial [synthetic construct]",5.58e-102,299.671,146,147,100.0,99.3,0
+sp|P68871|HBB_HUMAN,gb|AKI70611.1|,"HBB, partial [synthetic construct]",8.11e-102,299.286,146,147,100.0,99.3,0
