@@ -1,7 +1,7 @@
 """
 脚本名: step1_check_environment.py
 作者: Kuroneko
-日期: 2025.9.30
+日期: 2025.5.30
 
 功能: 检查本地Python 3.9环境和所需依赖包
 
