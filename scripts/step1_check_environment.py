@@ -272,7 +272,7 @@ def main():
         print(f"✓ Python版本: {python_version}")
         
         if not python_ok:
-            print("❌ Python版本不符合要求，需要Python 3.9或更高版本")
+            print(" Python版本不符合要求，需要Python 3.9或更高版本")
             logger.error(f"Python版本不符合要求: {python_version}")
             print_manual_instructions()
             return False
@@ -284,7 +284,7 @@ def main():
             print("✓ GPU支持可用")
             logger.info("GPU支持可用")
         else:
-            print("⚠️ GPU支持不可用，将使用CPU")
+            print(" GPU支持不可用，将使用CPU")
             logger.warning("GPU支持不可用")
         
         # 检查依赖包
@@ -292,7 +292,7 @@ def main():
         try:
             package_status = check_required_packages()
         except Exception as e:
-            print(f"⚠️ 检查依赖包时遇到问题，但继续执行: {e}")
+            print(f" 检查依赖包时遇到问题，但继续执行: {e}")
             # 基础包状态
             package_status = {
                 "numpy": {"installed": True, "description": "科学计算"},
@@ -316,19 +316,19 @@ def main():
         
         # 必需包状态
         if missing_required:
-            print(f"❌ 缺少必需包: {', '.join(missing_required)}")
+            print(f" 缺少必需包: {', '.join(missing_required)}")
         else:
-            print("✓ 必需包已安装")
+            print("必需包已安装")
         
         # 可选包状态
         if missing_optional:
-            print(f"⚠️ 缺少可选包: {', '.join(missing_optional)}")
+            print(f" 缺少可选包: {', '.join(missing_optional)}")
         else:
-            print("✓ 可选包已安装")
+            print(" 可选包已安装")
         
         # 版本冲突包
         if conflict_packages:
-            print(f"⚠️ 版本冲突包: {', '.join(conflict_packages)}")
+            print(f" 版本冲突包: {', '.join(conflict_packages)}")
             print("   这些包有版本冲突，但不影响核心功能")
             for pkg in conflict_packages:
                 error_msg = package_status[pkg].get("error", "")
@@ -375,10 +375,10 @@ def main():
         
         missing_count = len(missing_required) + len(missing_optional)
         if missing_count == 0:
-            print("✓ 所有依赖包已安装")
+            print("所有依赖包已安装")
             print("\n下一步: python scripts/steps/step2_rfdiffusion_backbone.py")
         else:
-            print(f"⚠️ 缺少 {missing_count} 个依赖包")
+            print(f" 缺少 {missing_count} 个依赖包")
             print("请先安装缺少的包，然后重新运行此脚本")
         
         print("=" * 60)
